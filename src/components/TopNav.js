@@ -6,7 +6,7 @@ export default class TopNav extends Component {
       <div id='top-nav-container'>
         <div id='top-nav'>
           <div id='top-nav-left'>
-            <img src='https://i.imgur.com/5Q4amDq.jpg' alt='company logo' />
+            <img src='https://i.imgur.com/usX1Piu.png' alt='company logo' />
           </div>
           <div id='top-nav-right'>
             <div id='top-nav-right-phone'>
@@ -17,7 +17,7 @@ export default class TopNav extends Component {
                 <span>770.873.0803</span>
               </div>
             </div>
-            <div id='top-nav-right-email'>
+            {/* <div id='top-nav-right-email'>
               <div id='top-nav-right-email-left'>
                 <i className='fas fa-envelope'></i>
               </div>
@@ -25,7 +25,7 @@ export default class TopNav extends Component {
                 <span>david@</span>
                 <span>prettygoodinc.com</span>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
