@@ -10,7 +10,7 @@ export default class Areas extends Component {
           <title>Service Areas</title>
           <meta name="description" content="Happy Wife - Service Areas" />
         </Helmet>
-        <div id='service-container'>
+        <div id='area-container'>
           <div id='service-areas'>
             <div id='areas-title'>
               <span>Our Service Areas:</span>
