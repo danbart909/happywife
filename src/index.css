@@ -2,6 +2,10 @@ html {
   font-size: 100%;
 }
 
+.hidden {
+  display: none;
+}
+
 /* light blue: #acccc6
 dark blue: #524d5c
 salmon: #faada0
@@ -612,7 +616,6 @@ white: #fffbef */
 }
 
 #pricing-title {
-  outline: 1px solid black;
   background-color: rgba(255, 255, 255, .55);
   text-shadow: 2px 2px 5px #524d5c;
   box-shadow: 2px 2px 5px #524d5c;
@@ -633,7 +636,6 @@ white: #fffbef */
 } */
 
 #pricing-info {
-  outline: 1px solid black;
   background-color: rgba(255, 255, 255, .55);
   text-shadow: 2px 2px 5px #524d5c;
   box-shadow: 2px 2px 5px #524d5c;
@@ -683,16 +685,77 @@ white: #fffbef */
 
 
 
+
+
+
+
+
+
+
+
+
 #booknow-container {
   background-image: url("https://i.imgur.com/gt1qQom.jpg");
   background-color: #cccccc;
-  height: 500px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   position: relative;
 }
+
+#booknow {
+  background-color: rgba(255, 255, 255, .55);
+  text-shadow: 2px 2px 5px #524d5c;
+  box-shadow: 2px 2px 5px #524d5c;
+  color: #524d5c;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#booknow-title {
+  background-color: rgba(255, 255, 255, .55);
+  text-shadow: 2px 2px 5px #524d5c;
+  box-shadow: 2px 2px 5px #524d5c;
+  font-size: 1.8rem;
+  margin: 50px 0;
+  padding: 20px;
+  text-align: center;
+}
+
+#booknow-header {
+  background-color: rgba(255, 255, 255, .55);
+  text-shadow: 2px 2px 5px #524d5c;
+  box-shadow: 2px 2px 5px #524d5c;
+  font-size: 1.2rem;
+  margin: 50px 0;
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
