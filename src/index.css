@@ -319,6 +319,7 @@ white: #fffbef */
   color: #524d5c;
   margin: 40px 0 0 0;
   box-shadow: 2px 2px 5px #524d5c;
+  border-radius: 5px;
 }
 
 #home-third {
@@ -338,6 +339,7 @@ white: #fffbef */
   padding: 20px;
   font-size: 1.8rem;
   box-shadow: 2px 2px 5px #524d5c;
+  border-radius: 5px;
 }
   
 #home-third-button:hover {
@@ -440,6 +442,7 @@ white: #fffbef */
   font-size: 2.4rem;
   margin: 50px 0;
   padding: 20px;
+  border-radius: 10px;
 }
 
 #areas-list {
@@ -454,6 +457,7 @@ white: #fffbef */
   flex-direction: column;
   align-items: center;
   margin: 0 0 50px 0;
+  border-radius: 10px;
 }
 
 #areas-list a {
@@ -510,6 +514,7 @@ white: #fffbef */
   font-size: 2.6rem;
   margin: 50px 0;
   padding: 20px;
+  border-radius: 10px;
 }
 
 #services-container-jr {
@@ -529,10 +534,10 @@ white: #fffbef */
   flex-direction: column;
   align-items: center;
   margin: 0 0 50px 0;
+  border-radius: 10px;
 }
 
 .service-title {
-  outline: 1px solid black;
   background-color: rgba(255, 255, 255, .55);
   text-shadow: 2px 2px 5px #524d5c;
   box-shadow: 2px 2px 5px #524d5c;
@@ -540,6 +545,7 @@ white: #fffbef */
   margin: 0 0 50px 0;
   padding: 20px;
   text-align: center;
+  border-radius: 10px;
 }
 
 .service-title a {
@@ -552,7 +558,6 @@ white: #fffbef */
 }
 
 .service-list {
-  outline: 1px solid black;
   background-color: rgba(255, 255, 255, .55);
   text-shadow: 2px 2px 5px #524d5c;
   box-shadow: 2px 2px 5px #524d5c;
@@ -564,6 +569,7 @@ white: #fffbef */
   flex-direction: column;
   align-items: center;
   text-align: center;
+  border-radius: 10px;
 }
 
 .service-list a {
@@ -603,7 +609,7 @@ white: #fffbef */
 }
 
 #pricing {
-  background-color: rgba(255, 255, 255, .55);
+  /* background-color: rgba(255, 255, 255, .55); */
   text-shadow: 2px 2px 5px #524d5c;
   box-shadow: 2px 2px 5px #524d5c;
   color: #524d5c;
@@ -623,6 +629,7 @@ white: #fffbef */
   margin: 50px 0;
   padding: 20px;
   text-align: center;
+  border-radius: 10px;
 }
 
 #pricing-title a {
@@ -648,6 +655,7 @@ white: #fffbef */
   align-items: center;
   text-align: center;
   margin: 0 0 50px 0;
+  border-radius: 10px;
 }
 
 #pricing-info span {
@@ -663,6 +671,7 @@ white: #fffbef */
   color: #acccc6;
   background-color: #524d5c;
   transition: .4s;
+  border-radius: 10px;
 }
 
 
@@ -705,7 +714,7 @@ white: #fffbef */
 }
 
 #booknow {
-  background-color: rgba(255, 255, 255, .55);
+  /* background-color: rgba(255, 255, 255, .55); */
   text-shadow: 2px 2px 5px #524d5c;
   box-shadow: 2px 2px 5px #524d5c;
   color: #524d5c;
@@ -722,9 +731,10 @@ white: #fffbef */
   text-shadow: 2px 2px 5px #524d5c;
   box-shadow: 2px 2px 5px #524d5c;
   font-size: 1.8rem;
-  margin: 50px 0;
+  margin: 50px 0 45px;
   padding: 20px;
   text-align: center;
+  border-radius: 10px;
 }
 
 #booknow-header {
@@ -732,16 +742,68 @@ white: #fffbef */
   text-shadow: 2px 2px 5px #524d5c;
   box-shadow: 2px 2px 5px #524d5c;
   font-size: 1.2rem;
-  margin: 50px 0;
+  margin: 20px 0 50px;
   padding: 20px;
   text-align: center;
+  border-radius: 10px;
 }
 
+#booknow-form-container {
+  display: flex;
+}
 
+#booknow-contact-form {
+  display: flex;
+  justify-content: center;
+}
 
+#booknow-fieldset {
+  border: none;
+  width: 90%;
+  margin: 15px 0 50px 0;
+}
 
+.booknow-inputs {
+  margin: 10px 0;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+}
 
+#booknow-contentinput {
+  margin: 10px 0;
+  width: 100%;
+  height: 200px;
+  padding: 5px;
+  border-radius: 10px;
+}
 
+#booknow-submit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #acccc6;
+  color: #524d5c; */
+  background-color: #524d5c;
+  color: #acccc6;
+  padding: 10px;
+  font-size: 1.6rem;
+  box-shadow: 2px 2px 5px #524d5c;
+  margin: 30px 0 0 0;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+  
+#booknow-submit:hover {
+  /* background-color: #524d5c;
+  color: #acccc6; */
+  background-color: #acccc6;
+  color: #524d5c;
+  transition: 1s;
+}
 
 
 

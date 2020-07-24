@@ -13,7 +13,7 @@ export default class Home extends Component {
             <span>A Customer Service-Driven Junk Removal Service</span>
           </div>
           <div id='home-third'>
-            <Link to='/' id='home-third-button'>
+            <Link to='/booknow' id='home-third-button'>
               <span>Get a Quote</span>
             </Link>
           </div>

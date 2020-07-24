@@ -21,9 +21,9 @@ export default class BookNow extends Component {
               <form id='booknow-contact-form' action="https://formspree.io/xwkrwbyl" method="POST">
                 <fieldset id='booknow-fieldset'>
                   <legend className='booknow-fieldset-legend hidden'>Contact Form / Request a Timeslot</legend>
-                  <input id='booknow-nameinput' type='text' name='name' placeholder='Name' required />
-                  <input id='booknow-emailinput' type='text' name='email' placeholder='Email' required />
-                  <input id='booknow-phoneinput' type='text' name='phone' placeholder='Phone' required />
+                  <input id='booknow-nameinput' className='booknow-inputs' type='text' name='name' placeholder='Name' required />
+                  <input id='booknow-emailinput' className='booknow-inputs' type='text' name='email' placeholder='Email' required />
+                  <input id='booknow-phoneinput' className='booknow-inputs' type='text' name='phone' placeholder='Phone' required />
                   <textarea id='booknow-contentinput' name='content' placeholder="Please tell us what time you'd like us to haul your stuff, as well as what it is we are hauling" required defaultValue={""} />
                   <input id='booknow-submit' type='submit' name='send' value='Request a Time' />
                 </fieldset>
