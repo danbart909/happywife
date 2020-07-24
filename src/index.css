@@ -413,7 +413,6 @@ white: #fffbef */
 #area-container {
   background-image: url("https://i.imgur.com/C8Ezwlc.jpg");
   background-color: #cccccc;
-  /* height: 500px; */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -592,7 +591,6 @@ white: #fffbef */
 #pricing-container {
   background-image: url("https://i.imgur.com/KBWAbDH.jpg");
   background-color: #cccccc;
-  height: 500px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -600,7 +598,70 @@ white: #fffbef */
   position: relative;
 }
 
+#pricing {
+  background-color: rgba(255, 255, 255, .55);
+  text-shadow: 2px 2px 5px #524d5c;
+  box-shadow: 2px 2px 5px #524d5c;
+  color: #524d5c;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+#pricing-title {
+  outline: 1px solid black;
+  background-color: rgba(255, 255, 255, .55);
+  text-shadow: 2px 2px 5px #524d5c;
+  box-shadow: 2px 2px 5px #524d5c;
+  font-size: 2rem;
+  margin: 50px 0;
+  padding: 20px;
+  text-align: center;
+}
+
+#pricing-title a {
+  color: #524d5c;
+}
+
+/* #pricing-title :hover {
+  color: #acccc6;
+  background-color: #524d5c;
+  transition: .4s;
+} */
+
+#pricing-info {
+  outline: 1px solid black;
+  background-color: rgba(255, 255, 255, .55);
+  text-shadow: 2px 2px 5px #524d5c;
+  box-shadow: 2px 2px 5px #524d5c;
+  color: #524d5c;
+  font-size: 1.2rem;
+  line-height: 2;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0 0 50px 0;
+}
+
+#pricing-info span {
+  margin: 15px 0;
+  width: 100%;
+}
+
+#pricing-info a {
+  color: #524d5c;
+}
+
+#pricing-info :hover {
+  color: #acccc6;
+  background-color: #524d5c;
+  transition: .4s;
+}
 
 
 

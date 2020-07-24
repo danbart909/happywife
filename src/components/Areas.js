@@ -13,7 +13,7 @@ export default class Areas extends Component {
         <div id='area-container'>
           <div id='service-areas'>
             <div id='areas-title'>
-              <span>Our Service Areas:</span>
+              <span>Our Service Areas</span>
             </div>
             <div id='areas-list'>
               <Link to='/areas/Acworth'><span>Acworth</span></Link>
