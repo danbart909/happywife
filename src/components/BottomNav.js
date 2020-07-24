@@ -39,7 +39,7 @@ export default class BottomNav extends Component {
             <div id='bottom-nav-right'>
               <a href='' target='_blank'><i className='fab fa-facebook' id='facebook-button' role='link'></i></a>
               {/* <a href='' target='_blank'><i className='fab fa-twitter' id='twitter-button' role='link'></i></a> */}
-              <a href='' target='_blank'><i className='fab fa-google' id='google-button' role='link'></i></a>
+              <a href='https://g.page/HappyWife?gm' target='_blank'><i className='fab fa-google' id='google-button' role='link'></i></a>
               {/* <a href='' target='_blank'><i className='fab fa-linkedin' id='linkedin-button' role='link'></i></a> */}
               {/* <a href='' target='_blank'><i className='fab fa-youtube' id='youtube-button' role='link'></i></a> */}
               {/* <a href='' target='_blank'><i className='fas fa-envelope' id='email-button' role='link'></i></a> */}
