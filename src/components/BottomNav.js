@@ -1,5 +1,5 @@
 import React, { Component, createRef } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import Sticky from 'react-sticky-el';
 
 export default class BottomNav extends Component {
@@ -10,29 +10,29 @@ export default class BottomNav extends Component {
           <div id='bottom-nav'>
             <div id='bottom-nav-left'>
               <div className='bottom-nav-button'>
-                <Link to='/' id='bottom-nav-home-link'>
+                <NavLink exact={true} activeClassName='is-active' to='/' id='bottom-nav-home-link'>
                   <span>Home</span>
-                </Link>
+                </NavLink>
               </div>
               <div className='bottom-nav-button'>
-                <Link to='/areas' id='bottom-nav-areas-link'>
+                <NavLink to='/areas' activeClassName='is-active' id='bottom-nav-areas-link'>
                   <span>Areas</span>
-                </Link>
+                </NavLink>
               </div>
               <div className='bottom-nav-button'>
-                <Link to='/services' id='bottom-nav-services-link'>
+                <NavLink to='/services' activeClassName='is-active' id='bottom-nav-services-link'>
                   <span>Services</span>
-                </Link>
+                </NavLink>
               </div>
               <div className='bottom-nav-button'>
-                <Link to='/pricing' id='bottom-nav-pricing-link'>
+                <NavLink to='/pricing' activeClassName='is-active' id='bottom-nav-pricing-link'>
                   <span>Pricing</span>
-                </Link>
+                </NavLink>
               </div>
               <div className='bottom-nav-button'>
-                <Link to='/booknow' id='bottom-nav-booknow-link'>
+                <NavLink to='/booknow' activeClassName='is-active' id='bottom-nav-booknow-link'>
                   <span>Book</span>
-                </Link>
+                </NavLink>
               </div>
             </div>
               
