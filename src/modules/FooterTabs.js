@@ -3,14 +3,15 @@ import { Tabs, TabLink, TabContent } from 'react-tabs-redux'
 
 export default class FooterTabs extends Component {
   render() {
+
     return (
       <Tabs className='footer-tabs'>
         <div id='tab-labels'>
-          <TabLink component='div' to='info'>Info</TabLink>
-          <TabLink component='div' to='services'>Services</TabLink>
-          <TabLink component='div' to='zip'>Zip Codes</TabLink>
-          <TabLink component='div' to='areas'>Areas</TabLink>
-          <TabLink component='div' to='cities'>Cities</TabLink>
+          <TabLink component='div' to='info' className='hvr-trim tab-link'><span>Info</span></TabLink>
+          <TabLink component='div' to='services' className='hvr-trim tab-link'><span>Services</span></TabLink>
+          <TabLink component='div' to='zip' className='hvr-trim tab-link'><span>Zip</span></TabLink>
+          <TabLink component='div' to='areas' className='hvr-trim tab-link'><span>Areas</span></TabLink>
+          <TabLink component='div' to='cities' className='hvr-trim tab-link'><span>Cities</span></TabLink>
         </div>
 
         <TabContent for="info">
