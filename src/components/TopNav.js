@@ -11,10 +11,10 @@ export default class TopNav extends Component {
           <div id='top-nav-right'>
             <div id='top-nav-right-phone'>
               <div id='top-nav-right-phone-left'>
-                <i className="fas fa-phone"></i>
+                <a href='tel:770-873-0803'><i className="fas fa-phone"></i></a>
               </div>
               <div id='top-nav-right-phone-right'>
-                <span>770.873.0803</span>
+                <a href='tel:770-873-0803'><span>770.873.0803</span></a>
               </div>
             </div>
             {/* <div id='top-nav-right-email'>
