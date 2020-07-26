@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import AboutUs from './AboutUs'
-import QuoteBanner from './QuoteBanner'
 import MidBanner from './MidBanner'
 import Virtues from './Virtues'
 
@@ -22,13 +21,9 @@ export default class Home extends Component {
             </Link>
           </div>
         </div>
-        {/* <QuoteBanner /> */}
         <AboutUs />
         <MidBanner />
         <Virtues />
-
-        
-
       </div>
     )
   }

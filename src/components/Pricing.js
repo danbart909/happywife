@@ -12,7 +12,7 @@ export default class Pricing extends Component {
         <div id='pricing-container'>
           <div id='pricing'>
             <div id='pricing-title'>
-              <span>Our Pricing:</span>
+              <span>Our Pricing</span>
             </div>
             <div id='pricing-info'>
               <span>A full load is almost always large enough to clean out the excess junk from a 5 person, 3200 sq ft house!</span>
@@ -23,9 +23,9 @@ export default class Pricing extends Component {
               <span>We only charge you for what you use!</span>
             </div>
           </div>
-          <div id='pricing-pic'>
+          {/* <div id='pricing-pic'>
 
-          </div>
+          </div> */}
         </div>
       </>
     )
