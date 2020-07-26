@@ -1,39 +1,38 @@
 import React, { Component } from 'react'
-import { Tabs, TabLink, TabContent } from 'react-tabs-redux'
 
-export default class FooterTabs extends Component {
+export default class Footer extends Component {
   render() {
-
     return (
-      <Tabs className='footer-tabs'>
-        <div id='tab-labels'>
-          <TabLink component='div' to='info' className='hvr-trim tab-link'><span>Info</span></TabLink>
-          <TabLink component='div' to='services' className='hvr-trim tab-link'><span>Services</span></TabLink>
-          <TabLink component='div' to='zip' className='hvr-trim tab-link'><span>Zip</span></TabLink>
-          <TabLink component='div' to='areas' className='hvr-trim tab-link'><span>Areas</span></TabLink>
-          <TabLink component='div' to='cities' className='hvr-trim tab-link'><span>Cities</span></TabLink>
-        </div>
+      <div id='f-container'>
 
-        <TabContent for="info">
-          <div id='footer-info-title' className='footer-title'>Our Info</div>
-          <div className='footer-tab-content' id='footer-info-body'>
-            <div id='footer-info-1' className='footer-info-box'>
+        <div id='f-info' className='f-box'>
+
+          <div id='f-info-title' className='f-titles'>
+            <span>Our Info</span>
+          </div>
+          <div id='f-info-content' className='f-content'>
+            <div id='f-info-1' className='f-info-box'>
               <span>Pretty Good Inc, DBA</span>
               <span>Happy Wife Junk Services</span>
             </div>
-            <div id='footer-info-2' className='footer-info-box'>
+            <div id='f-info-2' className='f-info-box'>
               <span>1820 Tree Top Way</span>
               <span>Marietta, GA 30062</span>
             </div>
-            <div id='footer-info-3' className='footer-info-box'>
+            <div id='f-info-3' className='f-info-box'>
               <span>david@prettygood.com</span>
               <span>770.873.0803</span>
             </div>
           </div>
-        </TabContent>
-        <TabContent for="services">
-          <div id='footer-services-title' className='footer-title'>Our Services</div>
-          <div className='footer-tab-content' id='footer-services-body'>
+
+        </div>
+
+        <div id='f-services' className='f-box'>
+
+          <div id='f-services-title' className='f-titles'>
+            <span>Our Services</span>
+          </div>
+          <div id='f-services-content' className='f-content'>
             <span>Appliance Removal</span>
             <span>Attic Junk Removal</span>
             <span>Basement Clean Out</span>
@@ -64,10 +63,15 @@ export default class FooterTabs extends Component {
             <span>Table and Chairs Removal</span>
             <span>TV Removal</span>
           </div>
-        </TabContent>
-        <TabContent for="zip">
-          <div id='footer-zip-title' className='footer-title'>Our Zip Codes</div>
-          <div className='footer-tab-content' id='footer-zip-body'>
+
+        </div>
+
+        <div id='f-zip' className='f-box'>
+
+          <div id='f-zip-title' className='f-titles'>
+            <span>Our Zip Codes</span>
+          </div>
+          <div id='f-zip-content' className='f-content'>
             <span>30060</span>
             <span>30062</span>
             <span>30064</span>
@@ -80,20 +84,30 @@ export default class FooterTabs extends Component {
             <span>30126</span>
             <span>30127</span>
           </div>
-        </TabContent>
-        <TabContent for="areas">
-          <div id='footer-areas-title' className='footer-title'>Our Areas</div>
-          <div className='footer-tab-content' id='footer-areas-body'>
+
+        </div>
+
+        <div id='f-areas' className='f-box'>
+
+          <div id='f-areas-title' className='f-titles'>
+            <span>Our Areas</span>
+          </div>
+          <div id='f-areas-content' className='f-content'>
             <span>Cobb County</span>
             <span>East Cobb</span>
             <span>North Cobb</span>
             <span>South Cobb</span>
             <span>West Cobb</span>
           </div>
-        </TabContent>
-        <TabContent for="cities">
-          <div id='footer-cities-title' className='footer-title'>Our Cities</div>
-          <div className='footer-tab-content' id='footer-cities-body'>
+
+        </div>
+
+        <div id='f-cities' className='f-box'>
+
+          <div id='f-cities-title' className='f-titles'>
+            <span>Our Cities</span>
+          </div>
+          <div id='f-cities-content' className='f-content'>
             <span>Acworth</span>
             <span>Austell</span>
             <span>Kennesaw</span>
@@ -105,8 +119,10 @@ export default class FooterTabs extends Component {
             <span>Vinings</span>
             <span>Woodstock</span>
           </div>
-        </TabContent>
-      </Tabs>
+
+        </div>
+
+      </div>
     )
   }
 }
