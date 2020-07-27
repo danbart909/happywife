@@ -10,7 +10,9 @@ export default class Home extends Component {
       <div id='home-container'>
         <div id='home-top'>
           <div id='home-first'>
-            <img src='https://i.imgur.com/usX1Piu.png' id='home-first-logo' alt='company logo' />
+            <div id='home-img-container'>
+              <img src='https://i.imgur.com/usX1Piu.png' id='home-first-logo' alt='company logo' />
+            </div>
           </div>
           <div id='home-second'>
             <span>A Customer Service-Driven Junk Removal Service</span>
