@@ -707,8 +707,15 @@ white: #fffbef */
   box-shadow: 5px 5px 5px black;
   border-radius: 15px;
   width: 90%;
-  padding: 25px 15px;
+  padding: 35px 15px;
   margin: 60px 0 40px 0;
+}
+
+#virtues-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .virtue {
@@ -733,7 +740,13 @@ white: #fffbef */
 
 .virtues-text {
   font-size: 1.1rem;
-  margin: 0 10px 40px 10px;
+  margin: 0 10px 20px 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.virtues-text span {
+  margin: 0 0 20px 0;
 }
 
 /* #virtues-title-1 {
@@ -1432,6 +1445,92 @@ white: #fffbef */
 
 
 
+
+#virtues-body {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 90%;
+  
+
+  flex-direction: row; 
+}
+
+.virtue {
+  display: flex;
+  flex-direction: column;
+
+  align-content: center;
+
+  text-align: center;
+  box-shadow: 5px 5px 5px black;
+  border-radius: 15px;
+  width: 90%;
+  margin: 0 0;
+  /* height: 600px; */
+}
+
+.virtues-title {
+  font-size: 2rem;
+  margin: 30px 0;
+  line-height: 1.2;
+}
+
+.virtues-text {
+  font-size: 1.1rem;
+  margin: 0 10px 10px 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.virtues-text span {
+  margin: 0 0 20px 0;
+}
+
+#virtues-1 {
+  margin: 0 15px 0 0;
+}
+
+/* #virtues-2 {
+  height: 100%;
+} */
+
+#virtues-3 {
+  /* margin: 20px 0 60px 0; */
+  margin: 0 0 80px 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #footertabs {
   display: none;
 }
@@ -1516,6 +1615,124 @@ white: #fffbef */
 
 
 @media screen and (min-width: 800px) {
+
+
+
+
+  #aboutus-container {
+    display: flex;
+    justify-content: space-evenly;
+    /* text-shadow: 1px 1px 1px black; */
+
+    width: 100%;
+    flex-direction: row;
+  }
+  
+  .aboutus-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 15px;
+  }
+  
+  .aboutus-title {
+    font-size: 2rem;
+    margin: 40px 0;
+    line-height: 1.8rem;
+  }
+  
+  .aboutus-text {
+    font-size: 1.1rem;
+    margin: 0 10px 40px 10px;
+  }
+  
+  #aboutus {
+    margin: 30px 0 30px 30px;
+  }
+  
+  #whatwebelieve {
+    margin: 30px;
+  }
+  
+  #ourservices {
+    margin: 30px 30px 30px 0;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .virtue {
+    display: flex;
+    flex-direction: column;
+  
+    align-content: center;
+  
+    text-align: center;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 15px;
+    width: 90%;
+    margin: 0 0;
+  }
+
+  #virtues-1 {
+    margin: 0 40px 0 0;
+  }
+  
+  #virtues-2 {
+    height: 100%;
+  }
+  
+  #virtues-3 {
+    /* margin: 20px 0 60px 0; */
+    margin: 0 0 60px 40px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
