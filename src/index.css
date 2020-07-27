@@ -1691,31 +1691,31 @@ white: #fffbef */
 
 
 
-  .virtue {
-    display: flex;
-    flex-direction: column;
-  
-    align-content: center;
-  
-    text-align: center;
-    box-shadow: 5px 5px 5px black;
-    border-radius: 15px;
-    width: 90%;
-    margin: 0 0;
-  }
+.virtue {
+  display: flex;
+  flex-direction: column;
 
-  #virtues-1 {
-    margin: 0 40px 0 0;
-  }
-  
-  #virtues-2 {
-    height: 100%;
-  }
-  
-  #virtues-3 {
-    /* margin: 20px 0 60px 0; */
-    margin: 0 0 60px 40px;
-  }
+  align-content: center;
+
+  text-align: center;
+  box-shadow: 5px 5px 5px black;
+  border-radius: 15px;
+  width: 90%;
+  margin: 0 0;
+}
+
+#virtues-1 {
+  margin: 0 40px 0 0;
+}
+
+#virtues-2 {
+  height: 100%;
+}
+
+#virtues-3 {
+  /* margin: 20px 0 60px 0; */
+  margin: 0 0 60px 40px;
+}
 
 
 
@@ -1745,18 +1745,18 @@ white: #fffbef */
 
 
 .f-titles {
-  font-size: 1.3rem;
-  height: 90px;
+font-size: 1.3rem;
+height: 90px;
 }
 
 .f-info-box {
-  font-size: 1.1rem;
+font-size: 1.1rem;
 }
 
 .f-content {
-  font-size: 1.1rem;
-  line-height: 2;
-  padding: 0 1px;
+font-size: 1.1rem;
+line-height: 2;
+padding: 0 1px;
 }
 
 }
@@ -1781,6 +1781,98 @@ white: #fffbef */
 
 
 @media screen and (min-width: 1000px) {
+
+
+
+#aboutus {
+  margin: 30px 0 30px 5%;
+}
+
+#whatwebelieve {
+  margin: 30px 5%;
+}
+
+#ourservices {
+  margin: 30px 5% 30px 0;
+}
+
+.aboutus-text {
+  margin: 0 5% 30px 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.virtue {
+  display: flex;
+  flex-direction: column;
+
+  align-content: center;
+
+  text-align: center;
+  box-shadow: 5px 5px 5px black;
+  border-radius: 15px;
+  width: 90%;
+  margin: 0 0;
+}
+
+#virtues-1 {
+  margin: 0 5% 0 0;
+}
+
+#virtues-2 {
+  height: 100%;
+}
+
+#virtues-3 {
+  /* margin: 20px 0 60px 0; */
+  margin: 0 0 60px 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
