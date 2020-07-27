@@ -303,6 +303,160 @@ white: #fffbef */
 
 
 
+.is-active {
+  background-color: #524d5c;
+}
+
+.is-active span {
+  color: #acccc6;
+}
+
+.is-active:before {
+  content: "";
+  position: absolute;
+  width: 8%;
+  height: 1px;
+  bottom: 9px;
+  background-color: #acccc6;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all .5s cubic-bezier(1,.25,0,.75) 0s;
+}
+
+.is-active:hover span {
+  margin: 0 0 6px 0;
+}
+
+.is-active:hover:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+
+
+
+
+
+
+
+#bottom-nav-home-link:before {
+  content: "";
+  position: absolute;
+  width: 8%;
+  height: 1px;
+  bottom: 9px;
+  background-color: #acccc6;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all .5s cubic-bezier(1,.25,0,.75) 0s;
+}
+
+#bottom-nav-home-link:hover span {
+  margin: 0 0 6px 0;
+}
+
+#bottom-nav-home-link:hover:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+
+
+#bottom-nav-areas-link:before {
+  content: "";
+  position: absolute;
+  width: 8%;
+  height: 1px;
+  bottom: 9px;
+  background-color: #acccc6;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all .5s cubic-bezier(1,.25,0,.75) 0s;
+}
+
+#bottom-nav-areas-link:hover span {
+  margin: 0 0 6px 0;
+}
+
+#bottom-nav-areas-link:hover:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+
+
+#bottom-nav-services-link:before {
+  content: "";
+  position: absolute;
+  width: 8%;
+  height: 1px;
+  bottom: 9px;
+  background-color: #acccc6;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all .5s cubic-bezier(1,.25,0,.75) 0s;
+}
+
+#bottom-nav-services-link:hover span {
+  margin: 0 0 6px 0;
+}
+
+#bottom-nav-services-link:hover:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+
+
+#bottom-nav-pricing-link:before {
+  content: "";
+  position: absolute;
+  width: 8%;
+  height: 1px;
+  bottom: 9px;
+  background-color: #acccc6;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all .5s cubic-bezier(1,.25,0,.75) 0s;
+}
+
+#bottom-nav-pricing-link:hover span {
+  margin: 0 0 6px 0;
+}
+
+#bottom-nav-pricing-link:hover:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+
+
+#bottom-nav-booknow-link:before {
+  content: "";
+  position: absolute;
+  width: 8%;
+  height: 1px;
+  bottom: 9px;
+  background-color: #acccc6;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all .5s cubic-bezier(1,.25,0,.75) 0s;
+}
+
+#bottom-nav-booknow-link:hover span {
+  margin: 0 0 6px 0;
+}
+
+#bottom-nav-booknow-link:hover:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+
+
+
+
+
 
 
 
