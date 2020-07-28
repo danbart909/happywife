@@ -31,7 +31,8 @@ export default class BottomNav extends Component {
               </div>
               <div className='bottom-nav-button'>
                 <NavLink to='/booknow' activeClassName='is-active' id='bottom-nav-booknow-link'>
-                  <span>Book</span>
+                  <span id='bottom-nav-booknow-link-span-1'>Book</span>
+                  <span id='bottom-nav-booknow-link-span-2'>Book Now</span>
                 </NavLink>
               </div>
             </div>
