@@ -11,7 +11,7 @@ export default class AboutUs extends Component {
             <span>About Us</span>
           </div>
           <div id='aboutus-2' className='aboutus-text'>
-            <span>A family-owned and operated company, Happy Wife Junk Service was started by a father and son duo, and is a consumer service driven junk removal company based in Marietta, Georgia. We believe passionately that only trustworthy men and women belong in your home. We strive to hire the best and to bring you the best service. At Happy Wife, we pride ourselves on taking care of you.</span>
+            <span id='about-us-2-span' className='aboutus-text-span'>A family-owned and operated company, Happy Wife Junk Service was started by a father and son duo, and is a consumer service driven junk removal company based in Marietta, Georgia. We believe passionately that only trustworthy men and women belong in your home. We strive to hire the best and to bring you the best service. At Happy Wife, we pride ourselves on taking care of you.</span>
           </div>
         </div>
 
