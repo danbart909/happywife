@@ -675,12 +675,12 @@ white: #fffbef */
   justify-content: center;
   align-items: center;
   transition: 0.5s;
-  border-bottom: 2px solid transparent;
+  /* border-bottom: 2px solid transparent; */
 }
 
 .aboutus-text {
   font-size: 1.1rem;
-  margin: 30px 10px 40px 10px;
+  margin: 20px 10px 40px 10px;
 }
 
 #aboutus {
@@ -704,11 +704,36 @@ white: #fffbef */
   border: 2px solid #acccc6;
 }
 
-.aboutus-box:hover .aboutus-title {
+/* .aboutus-box:hover .aboutus-title {
   border-bottom: 2px solid #acccc6;
+} */
+
+
+
+
+.aboutus-hr {
+  display: flex;
+  justify-content: center;
+  color: #524d5c;
+}
+
+.aboutus-hr hr {
+  width: 40%;
+  transition: 0.5s;
+  color: #524d5c;
 }
 
 
+/* #virtues-:hover {
+  background-color: #524d5c;
+  color: #fffbef;
+  border: 2px solid #acccc6;
+} */
+
+.aboutus-box:hover hr {
+  width: 90%;
+  color: #acccc6;
+}
 
 
 
@@ -1919,12 +1944,12 @@ white: #fffbef */
 .aboutus-title {
   font-size: 2rem;
   margin: 5px 0 10px 0;
-  line-height: 1.9rem;
+  line-height: 1.2;
 }
 
 .aboutus-text {
   font-size: 1.1rem;
-  margin: 20px 10px 30px 10px;
+  margin: 25px 10px 30px 10px;
 }
 
 #aboutus {
@@ -2076,16 +2101,23 @@ padding: 0 1px;
 }
 
 .aboutus-text {
-  margin: 0 5% 30px 5%;
+  font-size: 1.1rem;
+  margin: 20px 5% 30px 5%;
 }
 
 
 
+.aboutus-title {
+  font-size: 2rem;
+  margin: 5px 0 10px 0;
+  line-height: 1.2;
+}
 
-.aboutus-text {
+
+/* .aboutus-text {
   font-size: 1.1rem;
   margin: 20px 10px 30px 10px;
-}
+} */
 
 
 
