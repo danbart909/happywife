@@ -12,7 +12,7 @@ export default class BookNow extends Component {
         <div id='booknow-container'>
           <div id='booknow'>
             <div id='booknow-title'>
-              <span>Book Now with Calendly</span>
+              <span>Book Now</span>
             </div>
             <div id='booknow-header'>
               <span>Fill out the form below and we will email you a link. Use the link to set up your appointment.</span>
