@@ -510,7 +510,7 @@ white: #fffbef */
   align-items: center;
   width: 100%;
   z-index: 10;
-  box-shadow: 5px 5px 5px black;
+  /* box-shadow: 5px 5px 5px black; */
 }
 
 #home-first {
@@ -657,8 +657,14 @@ white: #fffbef */
 #aboutus-container {
   /* background-color: #acccc6;
   color: #524d5c; */
-  background-color: #524d5c;
-  color: #acccc6;
+  background-image: url("https://i.imgur.com/SbPeX96.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  /* background-color: #524d5c;
+  color: #acccc6; */
   width: 100%;
   display: flex;
   flex-direction: column;
