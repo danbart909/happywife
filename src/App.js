@@ -9,6 +9,7 @@ import Services from './components/Services'
 import Pricing from './components/Pricing'
 import BookNow from './components/BookNow'
 import Footer from './components/Footer'
+import ScrollToTop from './modules/ScrollToTop'
 import FooterTabs from './modules/FooterTabs'
 import Acworth from './pages/areas/Acworth'
 import Austell from './pages/areas/Austell'
@@ -114,6 +115,7 @@ export default class App extends Component {
             <Route path='/booknow' component={BookNow} />
           </Switch>
         </div>
+        <ScrollToTop />
         <div id='footertabs'>
           <FooterTabs />
         </div>

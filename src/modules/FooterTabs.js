@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 import { Tabs, TabLink, TabContent } from 'react-tabs-redux'
 
 export default class FooterTabs extends Component {
@@ -34,35 +35,35 @@ export default class FooterTabs extends Component {
         <TabContent for="services">
           <div id='footer-services-title' className='footer-title'>Our Services</div>
           <div className='footer-tab-content' id='footer-services-body'>
-            <span>Appliance Removal</span>
-            <span>Attic Junk Removal</span>
-            <span>Basement Clean Out</span>
-            <span>Bulk Trash Pick-up</span>
-            <span>Freezer Removal</span>
-            <span>Garage Clean Out</span>
-            <span>Grill Removal</span>
-            <span>Household Junk Removal</span>
-            <span>Mattress Removal</span>
-            <span>Moving Junk</span>
-            <span>Oven Removal</span>
-            <span>Refrigerator Removal</span>
-            <span>Stove Removal</span>
-            <span>Washer and Dryer Removal</span>
-            <span>Yard Debris Removal</span>
-            <span>Apartment Clean Out</span>
-            <span>Carpet Removal</span>
-            <span>Foreclosure Junk Removal</span>
-            <span>Office Junk Removal</span>
-            <span>Storage Unit Clean Out</span>
-            <span>Warehouse Clean Out</span>
-            <span>Couch Removal</span>
-            <span>Dresser Removal</span>
-            <span>E-Waste Removal</span>
-            <span>Entertainment Center Removal</span>
-            <span>Love Seat Removal</span>
-            <span>Recliner Removal</span>
-            <span>Table and Chairs Removal</span>
-            <span>TV Removal</span>
+            <Link to='/services/ApplianceRemoval'><span>Appliance Removal</span></Link>
+            <Link to='/services/AtticJunkRemoval'><span>Attic Junk Removal</span></Link>
+            <Link to='/services/BasementCleanOut'><span>Basement Clean Out</span></Link>
+            <Link to='/services/BulkTrashPickUp'><span>Bulk Trash Pick-up</span></Link>
+            <Link to='/services/FreezerRemoval'><span>Freezer Removal</span></Link>
+            <Link to='/services/GarageCleanOut'><span>Garage Clean Out</span></Link>
+            <Link to='/services/GrillRemoval'><span>Grill Removal</span></Link>
+            <Link to='/services/HouseholdJunkRemoval'><span>Household Junk Removal</span></Link>
+            <Link to='/services/MattressRemoval'><span>Mattress Removal</span></Link>
+            <Link to='/services/MovingJunk'><span>Moving Junk</span></Link>
+            <Link to='/services/OvenRemoval'><span>Oven Removal</span></Link>
+            <Link to='/services/RefrigeratorRemoval'><span>Refrigerator Removal</span></Link>
+            <Link to='/services/StoveRemoval'><span>Stove Removal</span></Link>
+            <Link to='/services/WasherAndDryerRemoval'><span>Washer and Dryer Removal</span></Link>
+            <Link to='/services/YardDebrisRemoval'><span>Yard Debris Removal</span></Link>
+            <Link to='/services/ApartmentCleanOut'><span>Apartment Clean Out</span></Link>
+            <Link to='/services/CarpetRemoval'><span>Carpet Removal</span></Link>
+            <Link to='/services/ForeclosureJunkRemoval'><span>Foreclosure Junk Removal</span></Link>
+            <Link to='/services/OfficeJunkRemoval'><span>Office Junk Removal</span></Link>
+            <Link to='/services/StorageUnitCleanOut'><span>Storage Unit Clean Out</span></Link>
+            <Link to='/services/WarehouseCleanOut'><span>Warehouse Clean Out</span></Link>
+            <Link to='/services/CouchRemoval'><span>Couch Removal</span></Link>
+            <Link to='/services/DresserRemoval'><span>Dresser Removal</span></Link>
+            <Link to='/services/EWasteRemoval'><span>E-Waste Removal</span></Link>
+            <Link to='/services/EntertainmentCenterRemoval'><span>Entertainment Center Removal</span></Link>
+            <Link to='/services/LoveSeatRemoval'><span>Love Seat Removal</span></Link>
+            <Link to='/services/ReclinerRemoval'><span>Recliner Removal</span></Link>
+            <Link to='/services/TableAndChairsRemoval'><span>Table and Chairs Removal</span></Link>
+            <Link to='/services/TVRemoval'><span>TV Removal</span></Link>
           </div>
         </TabContent>
         <TabContent for="zip">
@@ -94,16 +95,16 @@ export default class FooterTabs extends Component {
         <TabContent for="cities">
           <div id='footer-cities-title' className='footer-title'>Our Cities</div>
           <div className='footer-tab-content' id='footer-cities-body'>
-            <span>Acworth</span>
-            <span>Austell</span>
-            <span>Kennesaw</span>
-            <span>Marietta</span>
-            <span>Mableton</span>
-            <span>Powder Springs</span>
-            <span>Roswell</span>
-            <span>Smyrna</span>
-            <span>Vinings</span>
-            <span>Woodstock</span>
+            <Link to='/areas/Acworth'><span>Acworth</span></Link>
+            <Link to='/areas/Austell'><span>Austell</span></Link>
+            <Link to='/areas/Kennesaw'><span>Kennesaw</span></Link>
+            <Link to='/areas/Marietta'><span>Marietta</span></Link>
+            <Link to='/areas/Mableton'><span>Mableton</span></Link>
+            <Link to='/areas/PowderSprings'><span>Powder Springs</span></Link>
+            <Link to='/areas/Roswell'><span>Roswell</span></Link>
+            <Link to='/areas/Smyrna'><span>Smyrna</span></Link>
+            <Link to='/areas/Vinings'><span>Vinings</span></Link>
+            <Link to='/areas/Woodstock'><span>Woodstock</span></Link>
           </div>
         </TabContent>
       </Tabs>

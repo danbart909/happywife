@@ -572,7 +572,7 @@ white: #fffbef */
   background-color: #524d5c;
   border: 2px solid #acccc6;
   transition: 0.5s;
-  text-shadow: 2px 2px 5px #fffbef;
+  /* text-shadow: 2px 2px 5px #fffbef; */
 }
 
 #home-third {
@@ -1161,7 +1161,7 @@ white: #fffbef */
 }
 
 #areas-list span {
-  transition: .5s;
+  /* transition: .5s; */
   padding: 0 10px;
 }
 
@@ -1315,7 +1315,7 @@ white: #fffbef */
   transition: .5s;
 }
 
-/* .service-title:hover a {
+.service-title:hover a {
   color: #acccc6;
   transition: .5s;
 }
@@ -1323,7 +1323,7 @@ white: #fffbef */
 .service-title a:hover {
   color: #acccc6;
   transition: .5s;
-} */
+}
 
 .service-list {
   background-color: rgba(255, 255, 255, .55);
@@ -1463,7 +1463,7 @@ white: #fffbef */
   width: 100%;
   padding: 4px 12px;
   border: 2px solid transparent;
-  transition: .5s;
+  /* transition: .5s; */
 }
 
 #pricing-info a {
@@ -1698,6 +1698,8 @@ white: #fffbef */
   text-align: center;
   margin: 5px 0 25px 0;
   border-radius: 10px;
+  border: 4px solid transparent;
+  transition: 0.5s;
 }
 
 .services-body {
@@ -1714,6 +1716,8 @@ white: #fffbef */
   text-align: center;
   border-radius: 10px;
   margin: 0 0 5px 0;
+  border: 4px solid transparent;
+  transition: 0.5s;
 }
 
 .areas {
@@ -1728,11 +1732,26 @@ white: #fffbef */
   justify-content: center;
 }
 
+.services-box:hover .services-title {
+  border: 4px solid #acccc6;
+  background-color: #524d5c;
+  transition: 0.5s;
+}
 
+.services-box:hover .services-body {
+  border: 4px solid #acccc6;
+  background-color: #524d5c;
+  transition: 0.5s;
+}
 
+.services-box:hover span {
+  color: #fffbef;
+  transition: 0.5s;
+}
 
-
-
+.services-box span {
+  transition: 0.5s;
+}
 
 
 
@@ -1830,9 +1849,25 @@ white: #fffbef */
   align-items: center;
   line-height: 2.2;
   margin: 0 0 20px 0;
+  transition: 0.5s;
 }
 
+.footer-tab-content a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fffbef;
+  transition: 0.5s;
+  width: 90%;
+  border: 2px solid transparent;
+  margin: 0 0 3px 0;
+}
 
+.footer-tab-content a:hover {
+  color: #acccc6;
+  transition: 0.5s;
+  border: 2px solid #acccc6;
+}
 
 
 
