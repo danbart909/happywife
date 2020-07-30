@@ -1151,8 +1151,13 @@ white: #fffbef */
   color: #524d5c;
   border: 2px solid transparent;
   transition: .5s;
+  margin: 0 0 5px 0;
 }
 
+#areas-list span {
+  transition: .5s;
+  padding: 0 10px;
+}
 
 #areas-list a:hover {
   background-color: #524d5c;
@@ -1273,11 +1278,6 @@ white: #fffbef */
   transition: .5s;
 }
 
-.service-title a:hover {
-  color: #acccc6;
-  transition: .4s;
-}
-
 .service-box:hover .service-title {
   background-color: #524d5c;
   color: #fffbef;
@@ -1304,10 +1304,20 @@ white: #fffbef */
   transition: .5s;
 }
 
-.service-title:hover a {
+.service-title a:hover {
   color: #acccc6;
   transition: .5s;
 }
+
+/* .service-title:hover a {
+  color: #acccc6;
+  transition: .5s;
+}
+
+.service-title a:hover {
+  color: #acccc6;
+  transition: .5s;
+} */
 
 .service-list {
   background-color: rgba(255, 255, 255, .55);
@@ -1322,7 +1332,7 @@ white: #fffbef */
   align-items: center;
   text-align: center;
   border-radius: 10px;
-  margin: 0 0 5px 0;
+  margin: 0 0 10px 0;
   transition: .5s;
   border: 2px solid transparent;
 }
@@ -1332,6 +1342,8 @@ white: #fffbef */
   border: 2px solid transparent;
   width: 100%;
   transition: .5s;
+  margin: 0 0 5px 0;
+  padding: 0 10px;
 }
 
 .service-list a:hover {
@@ -1339,9 +1351,13 @@ white: #fffbef */
   color: #acccc6;
   transition: .5s;
   border: 2px solid #acccc6;
+  padding: 0 10px;
 }
 
-
+.service-box span:hover {
+  color: #acccc6;
+  transition: .5s;
+}
 
 
 
@@ -1389,6 +1405,7 @@ white: #fffbef */
   flex-direction: column;
   align-items: center;
   transition: .5s;
+  padding: 5px 0;
 }
 
 #pricing-title {
@@ -1438,7 +1455,7 @@ white: #fffbef */
 #pricing-info span {
   margin: 15px 0;
   width: 100%;
-  padding: 0 12px;
+  padding: 4px 12px;
   border: 2px solid transparent;
   transition: .5s;
 }
