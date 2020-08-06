@@ -19,6 +19,16 @@ dark blue: #524d5c
 salmon: #faada0
 white: #fffbef */
 
+/* h2:before { 
+  content: "Read: ";
+<span class="Apple-converted-space">    color: #F00;</span>
+} */
+
+/* p:after{ 
+  content: " -Read more… ";
+  color:#f00;
+} */
+
 #overlord {
   font-family: 'Montserrat', sans-serif;
 }
@@ -579,7 +589,7 @@ white: #fffbef */
   height: auto;
   max-height: 500px;
   /* margin: 0 0 0 15%; */
-  animation: 2 ease-in-out 0s 1 popIn;
+  animation: 2s ease-in-out 0s 1 popIn;
 }
 
 /* #home-first:before {
@@ -1485,7 +1495,7 @@ white: #fffbef */
 #pricing-title:hover {
   color: #acccc6;
   background-color: #524d5c;
-  transition: .5s;
+  transition: all 0.5s ease;
   border: 2px solid #acccc6;
 }
 
