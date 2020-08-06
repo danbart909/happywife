@@ -15,7 +15,7 @@ export default class Home extends Component {
             </div>
           </div>
           <div id='home-second'>
-            <span>A Customer Service Driven Junk Removal Service</span>
+            <span>A Customer Service Driven Junk Removal Company</span>
           </div>
           <div id='home-third'>
             <Link to='/booknow' id='home-third-button'>

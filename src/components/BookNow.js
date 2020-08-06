@@ -15,7 +15,7 @@ export default class BookNow extends Component {
               <span>Book Now</span>
             </div>
             <div id='booknow-header'>
-              <span>Fill out the form below and we will email you a link. Use the link to set up your appointment.</span>
+              <span>Please complete the form below and we will reply promptly. Let us know how we can best serve you.</span>
             </div>
             <div id='booknow-form-container'>
               <form id='booknow-contact-form' action="https://formspree.io/xwkrwbyl" method="POST">
