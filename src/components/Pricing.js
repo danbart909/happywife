@@ -19,7 +19,7 @@ export default class Pricing extends Component {
               <span>Our Full load is 350 dollars</span>
               <span>A 2/3 Load is 250 dollars</span>
               <span>A 1/3 load is 150 dollars</span>
-              <span>An single item removal cost 99 dollars.</span>
+              <span>A single item removal cost 99 dollars.</span>
               <span>We only charge you for what you use!</span>
             </div>
           </div>
