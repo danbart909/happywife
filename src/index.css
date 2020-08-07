@@ -237,11 +237,17 @@ white: #fffbef */
   border-top: 1px solid #524d5c;
   border-right: 1px solid #524d5c;
   border-bottom: 1px solid #524d5c;
+  transition: 0.4s;
 }
 
 .bottom-nav-button a {
   color: #524d5c;
   animation: 1.5s ease-out 0s 1 popIn;
+  transition: 0.4s;
+}
+
+.bottom-nav-button span {
+  transition: 0.4s;
 }
 
 #bottom-nav-home-link {
