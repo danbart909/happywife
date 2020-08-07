@@ -11,7 +11,11 @@ export default class Home extends Component {
         <div id='home-top'>
           <div id='home-first'>
             <div id='home-img-container'>
-              <img src='https://i.imgur.com/usX1Piu.png' id='home-first-logo' alt='company logo' />
+              <img
+                src='https://i.imgur.com/usX1Piu.png'
+                id='home-first-logo'
+                alt='company logo'
+              />
             </div>
           </div>
           <div id='home-second'>

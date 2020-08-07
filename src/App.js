@@ -53,9 +53,15 @@ import LoveSeatRemoval from './pages/services/LoveSeatRemoval'
 import ReclinerRemoval from './pages/services/ReclinerRemoval'
 import TableAndChairsRemoval from './pages/services/TableAndChairsRemoval'
 import TVRemoval from './pages/services/TVRemoval'
+import $ from 'jquery'
 
 export default class App extends Component {
   render() {
+
+    $(document).ready(function() {
+      document.getElementsByTagName("html")[0].style.visibility = "visible";
+    });
+
     return (
       <div id='overlord'>
         <div id='nav'>

@@ -5,6 +5,7 @@
 }
 
 html {
+  visibility: hidden;
   font-size: 100%;
 }
 
