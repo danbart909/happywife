@@ -1236,7 +1236,7 @@ white: #fffbef */
   text-shadow: 2px 2px 5px black;
   box-shadow: 1px 1px 5px black;
   color: #fffbef;
-  font-size: calc(24px + 8 * ((100vw - 360px) / 1240));
+  font-size: calc(18px + 18 * ((100vw - 360px) / 1240));
   line-height: 1.8;
   padding: 10px;
   display: flex;
@@ -1276,7 +1276,7 @@ white: #fffbef */
 #areas-map {
   display: flex;
   width: 80%;
-  height: 80%;
+  height: 20%;
   background-color: #cccccc;  
   background-position: center;
   background-repeat: no-repeat;
@@ -2022,18 +2022,6 @@ white: #fffbef */
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 #bottom-nav-booknow-link-span-1 {
   display: none;
 }
@@ -2041,36 +2029,6 @@ white: #fffbef */
 #bottom-nav-booknow-link-span-2 {
   display: inline;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -2094,18 +2052,6 @@ white: #fffbef */
 #home-second {
   font-size: 2.2rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -2173,22 +2119,9 @@ white: #fffbef */
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#areas-map {
+  height: 40%;
+}
 
 
 
@@ -2328,19 +2261,9 @@ white: #fffbef */
 
 
 
-
-
 #top-nav-right-phone-right {
   font-size: 1.6rem;
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -2392,32 +2315,6 @@ white: #fffbef */
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .virtue {
   display: flex;
   flex-direction: column;
@@ -2446,25 +2343,9 @@ white: #fffbef */
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#areas-map {
+  height: 50%;
+}
 
 
 
