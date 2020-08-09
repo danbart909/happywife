@@ -11,8 +11,8 @@ export default class Services extends Component {
           <meta name="description" content="Happy Wife - Our Services" />
         </Helmet>
         <div id='services-container'>
-          <div id='our-services'>
-            <div id='services-title'>
+          <div className='gD-box'>
+            <div className='gD-title'>
               <span>Our Services</span>
             </div>
             <div id='services-container-jr'>

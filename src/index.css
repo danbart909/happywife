@@ -1575,6 +1575,7 @@ white: #fffbef */
 
 
 
+
 #services-container {
   background-image: url("https://i.imgur.com/R0jJoMQ.jpg");
   background-color: #cccccc;
@@ -1583,161 +1584,115 @@ white: #fffbef */
   background-size: cover;
   background-attachment: fixed;
   position: relative;
-}
-
-#our-services {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-}
-
-#services-title {
-  background-color: rgba(255, 255, 255, .75);
-  text-shadow: 2px 2px 5px #524d5c;
-  box-shadow: 2px 2px 5px #524d5c;
-  color: #524d5c;
-  font-size: 2.6rem;
-  margin: 70px 0;
-  padding: 20px;
-  border-radius: 10px;
-  transition: .5s;
-  border: 2px solid transparent;
-  width: 80%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-#services-title:hover {
-  background-color: #524d5c;
-  color: #acccc6;
-  transition: .5s;
-  border: 2px solid #acccc6;
-}
-
 #services-container-jr {
-  width: 80%;
-  margin: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 10vw 0 0vw 0;
+  text-shadow: 6px 6px 5px black;
+  /* background: 
+  linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.6)
+  ); */
+  color: #fffbef;
+  transition: 0.5s;
 }
 
 .service-box {
-  background-color: rgba(255, 255, 255, .75);
-  text-shadow: 2px 2px 5px #524d5c;
-  box-shadow: 2px 2px 5px #524d5c;
-  color: #524d5c;
-  font-size: 1.2rem;
-  line-height: 1.8;
-  padding: 15px;
+  background: 
+  linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.7)
+  );
+  color: #fffbef;
+  line-height: 1.6;
+  margin: 0 0 10vw 0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 0 50px 0;
-  border-radius: 10px;
-  border: 4px solid transparent;
-  transition: .5s;
+  justify-items: flex-start;
+  width: 100%;
 }
-
-.service-box:hover {
-  border: 4px solid #524d5c;
-  transition: .5s;
- }
 
 .service-title {
-  background-color: rgba(255, 255, 255, .75);
-  text-shadow: 2px 2px 5px #524d5c;
-  box-shadow: 2px 2px 5px #524d5c;
-  font-size: 2rem;
-  margin: 0 0 30px 0;
-  padding: 20px;
-  text-align: center;
-  border-radius: 10px;
-  border: 2px solid transparent;
-  transition: .5s;
+  line-height: 1.6;
+  margin: 25px 0;
+  padding: 0 0 25px 0;
+  font-size: calc(30px + 12 * ((100vw - 335px) / 1265));
+  border-bottom: 5px solid black;
 }
 
-.service-box:hover .service-title {
-  background-color: #524d5c;
-  color: #fffbef;
-  transition: .5s;
-  border: 2px solid #acccc6;
-}
-
-.service-box:hover .service-title a {
-  color: #fffbef;
-}
-
-.service-box:hover .service-list {
-  transition: .5s;
-  border: 2px solid #acccc6;
-  background-color: #524d5c;
-}
-
-.service-box:hover .service-list a {
-  color: #fffbef;
+.service-title::after {
+  content: '';
+  position: relative;
+  bottom: 10%;
+  left: 0;
+  width: 50%;
+  height: 5px;
+  background: #acccc6;
+  z-index: 100;
+  /* animation:
+    1.5s ease-out 0s 1 slideInFromLeft forwards,
+    1.5s ease-out 3.2s 1 slideBackToLeft forwards;
+  transform: translateX(-100%); */
 }
 
 .service-title a {
-  color: #524d5c;
-  transition: .5s;
+  color: #acccc6;
 }
 
 .service-title a:hover {
-  color: #acccc6;
-  transition: .5s;
-}
-
-.service-title:hover a {
-  color: #acccc6;
-  transition: .5s;
-}
-
-.service-title a:hover {
-  color: #acccc6;
-  transition: .5s;
+  color: white;
 }
 
 .service-list {
-  background-color: rgba(255, 255, 255, .75);
-  text-shadow: 2px 2px 5px #524d5c;
-  box-shadow: 2px 2px 5px #524d5c;
-  color: #524d5c;
-  font-size: 1.4rem;
-  line-height: 2;
-  padding: 10px;
+  line-height: 2.2;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  text-align: center;
-  border-radius: 10px;
-  margin: 0 0 10px 0;
-  transition: .5s;
-  border: 2px solid transparent;
+  margin: 0 0 50px 0;
+  font-size: calc(20px + 12 * ((100vw - 335px) / 1265));
 }
 
 .service-list a {
-  color: #524d5c;
-  border: 2px solid transparent;
-  width: 100%;
-  transition: .5s;
-  margin: 0 0 5px 0;
-  padding: 0 10px;
+  color: #acccc6;
+  border-bottom: 2px solid transparent;
 }
 
 .service-list a:hover {
-  background-color: #524d5c;
-  color: #acccc6;
-  transition: .5s;
-  border: 2px solid #acccc6;
-  padding: 0 10px;
+  color: white;
+  border-bottom: 2px solid teal;
 }
 
-.service-box span:hover {
-  color: #acccc6;
-  transition: .5s;
+.services {
+background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.6)
+  /* ), url("https://i.imgur.com/R0jJoMQ.jpg"); */
+), url(https://www.historic-uk.com/wp-content/uploads/2017/06/1950s-housewife.jpg);
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
 
 
 
@@ -2034,106 +1989,6 @@ white: #fffbef */
 
 
 
-.services {
-  background: linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0),
-    rgba(0, 0, 0, 0.6)
-  ), url("https://i.imgur.com/R0jJoMQ.jpg");
-  background-color: #cccccc;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  position: relative;
-  /* display: flex;
-  justify-content: center; */
-}
-
-/* .services-box {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  width: 100%;
-  margin: 9vw 0;
-  outline: 5px solid black;
-}
-
-.services-title {
-  text-shadow: 3px 3px 5px black;
-  box-shadow: 1px 1px 5px black;
-  background: 
-  linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0),
-    rgba(0, 0, 0, 0.6)
-  );
-  color: #fffbef;
-  font-size: calc(34px + 146 * ((100vw - 360px) / 1240));
-  margin: 0 0 0 0;
-  padding: 20px 10px 2px 10px;
-  border-top-right-radius: 15px;
-  border-top-left-radius: 0;
-  border-bottom-right-radius: 15px;
-  border-bottom-left-radius: 0;
-  transition: 0.5s;
-  line-height: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  overflow: hidden;
-  animation: 2s ease-in 0.5s 1 borderFadeIn forwards;
-}
-
-.services-title span {
-  overflow: hidden;
-  opacity: 1;
-  animation: 2s ease-out 1.2s 1 slideInFromBot forwards;
-  transform: translateY(100%);
-}
-
-.services-title::after {
-  content: '';
-  position: relative;
-  bottom: -5px;
-  left: -4%;
-  width: 108%;
-  height: 2px;
-  background: #acccc6;
-  z-index: 99;
-  animation:
-    1.5s ease-out 0s 1 slideInFromLeft forwards,
-    1.5s ease-out 3.2s 1 slideBackToLeft forwards;
-  transform: translateX(-100%);
-}
-
-.services-body {
-  text-shadow: 3px 3px 5px black;
-  box-shadow: 1px 1px 5px black;
-  background: 
-  linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0.4),
-    rgba(0, 0, 0, 0.6)
-  );
-  color: #fffbef;
-  font-size: 1.2rem;
-  line-height: 1.8;
-  padding: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  border-radius: 10px;
-  margin: 9vw 15vw;
-  transition: 0.5s;
-} */
-
-
-
 
 
 
@@ -2291,7 +2146,7 @@ white: #fffbef */
 
 
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 479px) {
 
 #top-nav-right-phone-left {
   width: 50%;
@@ -2544,7 +2399,7 @@ white: #fffbef */
 
 
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width:767px) {
 
 
 
@@ -2675,6 +2530,50 @@ padding: 0 1px;
 
 
 
+#services-container-jr {
+  display: flex;
+  /* flex-direction: row; */
+  align-items: flex-start;
+  /* justify-content: center; */
+  /* text-align: center; */
+  margin: 10vw 0 0vw 0;
+}
+
+/* .service-box {
+  background: 
+  linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.7)
+  );
+  color: #fffbef;
+  line-height: 1.6;
+  margin: 0 10px 10vw 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: flex-start;
+  width: 100%;
+}
+
+.service-title {
+  line-height: 1.6;
+  margin: 25px 0;
+  padding: 0 0 25px 0;
+  font-size: calc(30px + 12 * ((100vw - 335px) / 1265));
+  border-bottom: 5px solid black;
+}
+
+.service-list {
+  line-height: 2.2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 50px 0;
+  font-size: calc(20px + 12 * ((100vw - 335px) / 1265));
+  width: 50%;
+} */
 
 
 
@@ -2694,7 +2593,20 @@ padding: 0 1px;
 
 
 
-@media screen and (min-width: 1000px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 991px) {
 
 
 
@@ -2811,95 +2723,7 @@ padding: 0 1px;
 
 
 
-#services-container {
-  background-image: url("https://i.imgur.com/R0jJoMQ.jpg");
-  background-color: #cccccc;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-#our-services {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  width: 90%;
-}
-
-#services-title {
-  margin: 100px 0;
-  width: 95%;
-}
-
-#services-container-jr {
-  width: 100%;
-  margin: 0 0 70px 0;
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.service-box {
-  color: #524d5c;
-  line-height: 1.6;
-  margin: 0 10px 50px 10px;
-  width: 31.5%;
-}
-
-.service-title {
-  line-height: 1.5;
-}
-
-/* .service-box:hover .service-title {
-  background-color: #524d5c;
-  color: #fffbef;
-  transition: .5s;
-  border: 2px solid #acccc6;
-}
-
-.service-box:hover .service-title a {
-  color: #fffbef;
-}
-
-.service-box:hover .service-list {
-  transition: .5s;
-  border: 2px solid #acccc6;
-  background-color: #524d5c;
-}
-
-.service-box:hover .service-list a {
-  color: #fffbef;
-}
-
-.service-title a {
-  color: #524d5c;
-  transition: .5s;
-}
-
-.service-title:hover a {
-  color: #acccc6;
-  transition: .5s;
-} */
-
-.service-list {
-  line-height: 1.8;
-}
-
-.service-list a {
-  color: #524d5c;
-}
-
-/* .service-list a:hover {
-  background-color: #524d5c;
-  color: #acccc6;
-  transition: .5s;
-} */
 
 
 
