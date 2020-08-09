@@ -69,12 +69,18 @@ white: #fffbef */
   }
 }
 
-@keyframes slideInFromLeft {
+@keyframes rollInFromLeft {
   0% {
     transform: translateX(-300%) rotate(-360deg);
   }
   100% {
     transform: translateX(0) rotate(0deg);
+  }
+}
+
+@keyframes slideInFromLeft {
+  100% {
+    transform: translateX(0);
   }
 }
 
@@ -96,12 +102,36 @@ white: #fffbef */
   }
 }
 
-@keyframes areasMenuSlideInFromLeft {
-  0% {
+@keyframes slideInFromBot {
+  /* 0% {
     transform: translateX(-100%);
+  } */
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
   }
   100% {
-    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes borderFadeIn {
+  100% {
+    border-bottom: 3px solid #acccc6 translateX(-100%);
+  }
+}
+
+@keyframes slideBackToLeft {
+  100% {
+    transform: translateX(-100%);
   }
 }
 
@@ -127,7 +157,7 @@ white: #fffbef */
   height: 100%;
   width: auto;
   margin: 0 0 0 10%;
-  animation: 2s ease-out 0s 1 slideInFromLeft;
+  animation: 2s ease-out 0s 1 rollInFromLeft;
 }
 
 #top-nav-right {
@@ -1200,24 +1230,41 @@ white: #fffbef */
     rgba(0, 0, 0, 0.6)
   );
   color: #fffbef;
-  /* font-size: 10rem; */
-  /* font-size: 32px; */
   font-size: calc(34px + 116 * ((100vw - 360px) / 1240));
   margin: 0 0 0 0;
   padding: 20px 10px 5px 10px;
   transition: 0.5s;
-  /* width: 80%; */
-  border-bottom: 1px solid black;
-  border-radius: 5px;
   line-height: 1;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
+  overflow: hidden;
+  border-radius: 15px;
+  animation: 2s ease-in 0.5s 1 borderFadeIn forwards;
 }
 
 #areas-title span {
+  overflow: hidden;
+  opacity: 1;
+  animation: 2s ease-out 1.2s 1 slideInFromBot forwards;
+  transform: translateY(100%);
+}
 
+#areas-title::after {
+  content: '';
+  position: relative;
+  bottom: -5px;
+  left: -4%;
+  width: 108%;
+  height: 2px;
+  background: #acccc6;
+  z-index: 99;
+  animation:
+    1.5s ease-out 0s 1 slideInFromLeft forwards,
+    1.5s ease-out 3.2s 1 slideBackToLeft forwards;
+  transform: translateX(-100%);
 }
 
 #areas-body {
@@ -1263,7 +1310,6 @@ white: #fffbef */
   color: #fffbef;
   transition: .5s;
   border: 2px solid #fffbef;
-  /* animation: 1s ease-out 0s 1 areasMenuSlideInFromLeft; */
 }
 
 #areas-map-container {

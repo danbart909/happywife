@@ -9,6 +9,8 @@ export default class Areas extends Component {
 
     $(document).ready(function () {
 
+      $('#areas-title').fadeIn(4000, 'linear')
+
       $('.acworth').hover(function() {
         $('#areas-map').css('background-image', 'url(https://i.imgur.com/q1shkdc.jpg)')
       // }, function() {
