@@ -636,17 +636,17 @@ white: #fffbef */
   background: 
   linear-gradient(
     to bottom,
-    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.4),
     rgba(0, 0, 0, 0.6)
   );
   color: #fffbef;
   font-size: calc(34px + 96 * ((100vw - 360px) / 1240));
   margin: 0 15vw 0 0;
   padding: 20px 10px 2px 10px;
-  border-top-right-radius: 15px;
+  /* border-top-right-radius: 15px;
   border-top-left-radius: 0;
   border-bottom-right-radius: 15px;
-  border-bottom-left-radius: 0;
+  border-bottom-left-radius: 0; */
   transition: 0.5s;
   line-height: 1;
   display: flex;
@@ -697,7 +697,7 @@ white: #fffbef */
   align-items: center;
   justify-content: center;
   text-align: center;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   margin: 15vw 15vw 9vw 15vw;
   transition: 0.5s;
 }
@@ -1436,7 +1436,7 @@ white: #fffbef */
   color: #acccc6;
 } */
 
-#areas-title {
+/* #areas-title {
   text-shadow: 3px 3px 5px black;
   box-shadow: 1px 1px 5px black;
   background: 
@@ -1484,7 +1484,7 @@ white: #fffbef */
     1.5s ease-out 0s 1 slideInFromLeft forwards,
     0.3s ease-out 2.5s 1 slideBackToLeft forwards;
   transform: translateX(-100%);
-}
+} */
 
 #areas-body {
   width: 100%;
@@ -1517,7 +1517,7 @@ white: #fffbef */
 
 #areas-list a {
   width: 100%;
-  color: #fffbef;
+  color: #acccc6;
   border: 2px solid transparent;
   transition: .5s;
   margin: 0 0 5px 0;
@@ -1730,7 +1730,7 @@ background: linear-gradient(
   display: flex;
   justify-content: center;
   align-items: center;
-  text-shadow: 2px 2px 5px #524d5c;
+  /* text-shadow: 2px 2px 5px #524d5c; */
 }
 
 #pricing {
@@ -1738,56 +1738,87 @@ background: linear-gradient(
   color: #524d5c;
   font-size: 1.6rem;
   line-height: 1.8;
-  width: 90%;
+  width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 12vw 0;
   transition: .5s;
   padding: 5px 0;
 }
 
-#pricing-title {
-  background-color: rgba(255, 255, 255, .75);
-  text-shadow: 2px 2px 5px #524d5c;
-  box-shadow: 2px 2px 5px #524d5c;
-  font-size: 2.4rem;
-  margin: 50px 0;
-  padding: 5px;
+/* #pricing-title {
+  text-shadow: 3px 3px 5px black;
+  box-shadow: 1px 1px 5px black;
+  background: 
+  linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.6)
+  );
+  color: #fffbef;
+  font-size: calc(34px + 96 * ((100vw - 360px) / 1240));
+  margin: 0 15vw 0 0;
+  padding: 20px 10px 2px 10px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 0;
+  transition: 0.5s;
+  line-height: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  border-radius: 10px;
-  width: 90%;
-  border: 2px solid transparent;
-  transition: .5s;
+  overflow: hidden;
 }
 
-#pricing-title a {
-  color: #524d5c;
+#pricing-title span {
+  overflow: hidden;
+  opacity: 1;
+  animation: 1s ease-out 1.5s 1 slideInFromBot forwards;
+  transform: translateY(100%);
 }
 
-#pricing-title:hover {
-  color: #acccc6;
-  background-color: #524d5c;
-  transition: all 0.5s ease;
-  border: 2px solid #acccc6;
-}
+#pricing-title::after {
+  content: '';
+  position: relative;
+  bottom: -2px;
+  left: -4%;
+  width: 108%;
+  height: 2px;
+  background: #acccc6;
+  z-index: 99;
+  animation:
+    1.5s ease-out 0s 1 slideInFromLeft forwards,
+    0.3s ease-out 2.5s 1 slideBackToLeft forwards;
+  transform: translateX(-100%);
+} */
 
 #pricing-info {
-  background-color: rgba(255, 255, 255, .75);
-  text-shadow: 2px 2px 5px #524d5c;
-  box-shadow: 2px 2px 5px #524d5c;
-  color: #524d5c;
-  font-size: 1.2rem;
+  background: 
+  linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.6)
+  );
+  color: #fffbef;
+  text-shadow: 3px 3px 5px black;
+  box-shadow: 1px 1px 5px black;
+  font-size: calc(16px + 10 * ((100vw - 360px) / 1240));
   line-height: 2;
   padding: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  margin: 0 0 50px 0;
-  border-radius: 10px;
+  margin: 9vw 0 0 0;
+  /* border-radius: 10px; */
   transition: .5s;
   border: 2px solid transparent;
-  width: 90%;
+  width: 100%;
 }
 
 #pricing-info span {
@@ -1799,14 +1830,14 @@ background: linear-gradient(
 }
 
 #pricing-info a {
-  color: #524d5c;
+  color: #fffbef;
   transition: .5s;
 }
 
 #pricing-info:hover {
   color: #acccc6;
   background-color: #524d5c;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   transition: .5s;
   border: 2px solid #acccc6;
 }
@@ -1854,83 +1885,58 @@ background: linear-gradient(
   background-size: cover;
   background-attachment: fixed;
   position: relative;
-}
-
-#booknow {
-  /* background-color: rgba(255, 255, 255, .75); */
-  text-shadow: 2px 2px 5px #524d5c;
-  box-shadow: 2px 2px 5px #524d5c;
-  color: #524d5c;
-  font-size: 1.2rem;
-  line-height: 1.8;
-  padding: 10px;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
-#booknow-title {
-  background-color: rgba(255, 255, 255, .75);
-  text-shadow: 2px 2px 5px #524d5c;
-  box-shadow: 2px 2px 5px #524d5c;
-  font-size: 1.8rem;
-  margin: 50px 0 45px 0;
-  padding: 20px;
-  text-align: center;
-  border-radius: 10px;
-  border: 2px solid transparent;
-  width: 90%;
-  transition: 0.5s;
-}
-
-#booknow-title:hover {
-  border: 2px solid #acccc6;
-  background-color: #524d5c;
-  color: #acccc6;
-  transition: 0.5s;
-}
-
 #booknow-header {
-  background-color: rgba(255, 255, 255, .75);
-  text-shadow: 2px 2px 5px #524d5c;
-  box-shadow: 2px 2px 5px #524d5c;
-  font-size: 1.2rem;
-  margin: 20px 0 50px;
+  background: 
+  linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.6)
+  );
+  text-shadow: 3px 3px 5px black;
+  box-shadow: 1px 1px 5px black;
+  color: #fffbef;
+  font-size: calc(18px + 8 * ((100vw - 360px) / 1240));
+  line-height: 1.4;
+  margin: 9vw 0;
   padding: 20px;
   text-align: center;
-  border-radius: 10px;
-  border: 2px solid transparent;
-  width: 90%;
-  transition: 0.5s;
-}
-
-#booknow-header:hover {
-  border: 2px solid #acccc6;
-  background-color: #524d5c;
-  color: #acccc6;
+  width: 100%;
   transition: 0.5s;
 }
 
 #booknow-form-container {
   display: flex;
+  width: 100%;
+  background: 
+  linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.6)
+  );
 }
 
 #booknow-contact-form {
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 
 #booknow-fieldset {
   border: none;
-  width: 90%;
-  margin: 15px 0 50px 0;
+  /* width: 90%; */
+  margin: 5vw 0 0 0;
 }
 
 .booknow-inputs {
   margin: 10px 0;
   width: 100%;
   padding: 10px;
-  border-radius: 10px;
+  /* border-radius: 10px; */
 }
 
 #booknow-contentinput {
@@ -1938,36 +1944,36 @@ background: linear-gradient(
   width: 100%;
   height: 200px;
   padding: 10px;
-  border-radius: 10px;
+  /* border-radius: 10px; */
 }
 
 #booknow-submit {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background-color: #acccc6;
-  color: #524d5c; */
-  background-color: #524d5c;
-  color: #acccc6;
+  background-color: #fffbef;
+  color: #524d5c;
+  /* background-color: #524d5c;
+  color: #fffbef; */
   padding: 10px;
   font-size: 1.6rem;
   box-shadow: 2px 2px 5px #524d5c;
-  margin: 30px 0 0 0;
+  margin: 5vw 0 5vw 0;
   width: 100%;
   padding: 10px;
-  border: 2px solid transparent;
+  border: 2px solid #524d5c;
   outline: none;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   transition: .5s;
 }
   
 #booknow-submit:hover {
-  /* background-color: #524d5c;
-  color: #acccc6; */
-  background-color: #acccc6;
-  color: #524d5c;
+  background-color: #524d5c;
+  color: #fffbef;
+  /* background-color: #fffbef;
+  color: #524d5c; */
   transition: .5s;
-  border: 2px solid #524d5c;
+  border: 2px solid #fffbef;
 }
 
 
@@ -2726,52 +2732,6 @@ padding: 0 1px;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#booknow-title {
-  width: 80%;
-}
-
-#booknow-header {
-  width: 80%;
-}
 
 
 

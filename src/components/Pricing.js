@@ -11,7 +11,7 @@ export default class Pricing extends Component {
         </Helmet>
         <div id='pricing-container'>
           <div id='pricing'>
-            <div id='pricing-title'>
+            <div className='gD-title'>
               <span>Our Pricing</span>
             </div>
             <div id='pricing-info'>

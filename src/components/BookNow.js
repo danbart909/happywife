@@ -10,8 +10,8 @@ export default class BookNow extends Component {
           <meta name="description" content="Happy Wife - Book Now - Booking Form" />
         </Helmet>
         <div id='booknow-container'>
-          <div id='booknow'>
-            <div id='booknow-title'>
+          <div className='gD-box'>
+            <div className='gD-title'>
               <span>Book Now</span>
             </div>
             <div id='booknow-header'>

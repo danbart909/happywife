@@ -81,7 +81,7 @@ export default class Areas extends Component {
         </Helmet>
         <div id='area-container'>
           <div id='service-areas'>
-            <div id='areas-title'>
+            <div className='gD-title'>
               <span>Our Service Areas</span>
             </div>
 
