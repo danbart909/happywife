@@ -655,13 +655,13 @@ white: #fffbef */
   align-items: center;
   text-align: center;
   overflow: hidden;
-  /* animation: 2s ease-in 0.5s 1 borderFadeIn forwards; */
+  /* animation: 1s ease-in 0.5s 1 borderFadeIn forwards; */
 }
 
 .gD-title span {
   overflow: hidden;
   opacity: 1;
-  animation: 2s ease-out 1.2s 1 slideInFromBot forwards;
+  animation: 1s ease-out 1.5s 1 slideInFromBot forwards;
   transform: translateY(100%);
 }
 
@@ -676,7 +676,7 @@ white: #fffbef */
   z-index: 99;
   animation:
     1.5s ease-out 0s 1 slideInFromLeft forwards,
-    1.5s ease-out 3.2s 1 slideBackToLeft forwards;
+    0.3s ease-out 2.5s 1 slideBackToLeft forwards;
   transform: translateX(-100%);
 }
 
@@ -1467,7 +1467,7 @@ white: #fffbef */
 #areas-title span {
   overflow: hidden;
   opacity: 1;
-  animation: 2s ease-out 1.2s 1 slideInFromBot forwards;
+  animation: 1s ease-out 1.5s 1 slideInFromBot forwards;
   transform: translateY(100%);
 }
 
@@ -1482,7 +1482,7 @@ white: #fffbef */
   z-index: 99;
   animation:
     1.5s ease-out 0s 1 slideInFromLeft forwards,
-    1.5s ease-out 3.2s 1 slideBackToLeft forwards;
+    0.3s ease-out 2.5s 1 slideBackToLeft forwards;
   transform: translateX(-100%);
 }
 
@@ -1577,7 +1577,11 @@ white: #fffbef */
 
 
 #services-container {
-  background-image: url("https://i.imgur.com/R0jJoMQ.jpg");
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.25),
+    rgba(0, 0, 0, 0.25)
+  ), url("https://i.imgur.com/R0jJoMQ.jpg");
   background-color: #cccccc;
   background-position: center;
   background-repeat: no-repeat;
@@ -1598,12 +1602,6 @@ white: #fffbef */
   text-align: center;
   margin: 10vw 0 0vw 0;
   text-shadow: 6px 6px 5px black;
-  /* background: 
-  linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0.4),
-    rgba(0, 0, 0, 0.6)
-  ); */
   color: #fffbef;
   transition: 0.5s;
 }
@@ -1631,6 +1629,7 @@ white: #fffbef */
   padding: 0 0 25px 0;
   font-size: calc(30px + 12 * ((100vw - 335px) / 1265));
   border-bottom: 5px solid black;
+  transition: 0.5s;
 }
 
 .service-title::after {
@@ -1669,6 +1668,7 @@ white: #fffbef */
 .service-list a {
   color: #acccc6;
   border-bottom: 2px solid transparent;
+  transition: 0.3s;
 }
 
 .service-list a:hover {
@@ -2146,7 +2146,7 @@ background: linear-gradient(
 
 
 
-@media screen and (min-width: 479px) {
+@media screen and (min-width: 579px) {
 
 #top-nav-right-phone-left {
   width: 50%;
@@ -2510,70 +2510,79 @@ line-height: 2;
 padding: 0 1px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#services-container {
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.25),
+    rgba(0, 0, 0, .25)
+  ), url("https://i.imgur.com/R0jJoMQ.jpg");
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 #services-container-jr {
+  width: 100%;
   display: flex;
-  /* flex-direction: row; */
+  flex-direction: row;
   align-items: flex-start;
-  /* justify-content: center; */
-  /* text-align: center; */
+  justify-content: center;
+  text-align: center;
   margin: 10vw 0 0vw 0;
-}
-
-/* .service-box {
   background: 
   linear-gradient(
     to bottom,
     rgba(0, 0, 0, 0.7),
     rgba(0, 0, 0, 0.7)
   );
-  color: #fffbef;
-  line-height: 1.6;
-  margin: 0 10px 10vw 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-items: flex-start;
+}
+
+.service-box {
+  background: none;
   width: 100%;
+  margin: 0 2vw 10vw 2vw;
 }
 
 .service-title {
   line-height: 1.6;
   margin: 25px 0;
   padding: 0 0 25px 0;
-  font-size: calc(30px + 12 * ((100vw - 335px) / 1265));
+  font-size: calc(20px + 16 * ((100vw - 335px) / 1265));
   border-bottom: 5px solid black;
 }
 
 .service-list {
-  line-height: 2.2;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 0 0 50px 0;
-  font-size: calc(20px + 12 * ((100vw - 335px) / 1265));
-  width: 50%;
-} */
+  font-size: calc(16px + 12 * ((100vw - 335px) / 1265));
+}
+
+
+}
 
 
 
