@@ -1496,7 +1496,7 @@ white: #fffbef */
   background: 
   linear-gradient(
     to bottom,
-    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.6),
     rgba(0, 0, 0, 0.6)
   );
   text-shadow: 2px 2px 5px black;
@@ -1626,33 +1626,31 @@ white: #fffbef */
 .service-title {
   line-height: 1.6;
   margin: 25px 0;
-  padding: 0 0 25px 0;
+  padding: 0 0 0 0;
   font-size: calc(30px + 12 * ((100vw - 335px) / 1265));
-  border-bottom: 5px solid black;
   transition: 0.5s;
-}
-
-.service-title::after {
-  content: '';
-  position: relative;
-  bottom: 10%;
-  left: 0;
-  width: 50%;
-  height: 5px;
-  background: #acccc6;
-  z-index: 100;
-  /* animation:
-    1.5s ease-out 0s 1 slideInFromLeft forwards,
-    1.5s ease-out 3.2s 1 slideBackToLeft forwards;
-  transform: translateX(-100%); */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  overflow: hidden;
+  /* animation: 2s ease-in 0.5s 1 borderFadeIn forwards; */
 }
 
 .service-title a {
   color: #acccc6;
+  border: 2px solid transparent;
+  transition: 0.3s;
+  padding: 10px;
+  margin: 0;
+  width: 100%;
+  /* outline: 5px solid black; */
 }
 
-.service-title a:hover {
-  color: white;
+.service-title:hover a {
+  background-color: #524d5c;
+  color: #fffbef;
+  transition: .5s;
+  border: 2px solid #fffbef;
 }
 
 .service-list {
@@ -1662,18 +1660,24 @@ white: #fffbef */
   justify-content: center;
   align-items: center;
   margin: 0 0 50px 0;
+  width: 100%;
   font-size: calc(20px + 12 * ((100vw - 335px) / 1265));
 }
 
 .service-list a {
   color: #acccc6;
-  border-bottom: 2px solid transparent;
+  border: 2px solid transparent;
   transition: 0.3s;
+  padding: 0 10px;
+  margin: 5px 0;
+  width: 100%;
 }
 
 .service-list a:hover {
-  color: white;
-  border-bottom: 2px solid teal;
+  background-color: #524d5c;
+  color: #fffbef;
+  transition: .5s;
+  border: 2px solid #fffbef;
 }
 
 .services {
@@ -2580,8 +2584,24 @@ padding: 0 1px;
   margin: 25px 0;
   padding: 0 0 25px 0;
   font-size: calc(20px + 16 * ((100vw - 335px) / 1265));
-  border-bottom: 5px solid black;
+  flex-direction: column;
+  /* border-bottom: 5px solid black; */
 }
+
+/* .service-title::after {
+  content: '';
+  position: relative;
+  bottom: 5%;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background: #acccc6;
+  z-index: 100;
+  animation:
+    1.5s ease-out 0s 1 slideInFromLeft forwards,
+    0.3s ease-out 2.5s 1 slideBackToLeft forwards;
+  transform: translateX(-100%);
+} */
 
 .service-list {
   font-size: calc(16px + 12 * ((100vw - 335px) / 1265));
