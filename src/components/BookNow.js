@@ -25,7 +25,7 @@ export default class BookNow extends Component {
                   <input id='booknow-emailinput' className='booknow-inputs' type='text' name='email' placeholder='Email' required />
                   <input id='booknow-phoneinput' className='booknow-inputs' type='text' name='phone' placeholder='Phone' required />
                   <textarea id='booknow-contentinput' name='content' placeholder="Please tell us what time you'd like us to haul your stuff, as well as what it is we are hauling" required defaultValue={""} />
-                  <input id='booknow-submit' type='submit' name='send' value='Request a Time' />
+                  <input id='booknow-submit' type='submit' name='send' value='Send Email' />
                 </fieldset>
               </form>
             </div>

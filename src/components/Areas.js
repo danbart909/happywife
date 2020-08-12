@@ -112,14 +112,3 @@ export default class Areas extends Component {
     )
   }
 }
-
-// Acworth: https://i.imgur.com/q1shkdc.jpg
-// Austell: https://i.imgur.com/xxASiH7.jpg
-// Kennesaw: https://i.imgur.com/b6RqwPU.jpg
-// Marietta: https://i.imgur.com/bNArkD5.jpg
-// Mableton: https://i.imgur.com/H55jJQD.jpg
-// Powder Springs: https://i.imgur.com/VwCkOY0.jpg
-// Roswell: https://i.imgur.com/wC2yC1k.jpg
-// Smyrna: https://i.imgur.com/Qb2P44a.jpg
-// Vinings: https://i.imgur.com/rahFD2X.jpg
-// Woodstock: https://i.imgur.com/SECGbkl.jpg
