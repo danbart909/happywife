@@ -1049,20 +1049,23 @@ white: #fffbef */
   border-top: 2px solid transparent;
   border-bottom: 2px solid transparent;
   margin: 5vw 0;
+  font-size: calc(16px + 4 * ((100vw - 335px) / 1265));
 }
 
 .aboutus-title {
-  font-size: 2rem;
+  font-size: calc(28px + 15 * ((100vw - 335px) / 1265));
+  line-height: 1.2;
   margin: 0 0;
-  height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 20px;
 }
 
 .aboutus-text {
   font-size: 1.1rem;
   margin: 20px 10px 40px 10px;
+  padding: 10px;
 }
 
 #aboutus {
@@ -1288,18 +1291,16 @@ white: #fffbef */
   flex-direction: column;
   justify-content: space-evenly;
   text-align: center;
-  /* background-color: #524d5c;
-  color: #fffbef; */
-  font-size: 2.4rem;
+  font-size: calc(44px + 33 * ((100vw - 335px) / 1265));
   background-color: #fffbef;
   color: #524d5c;
   box-shadow: 5px 5px 5px black;
-  border-radius: 15px;
-  width: 90%;
+  width: 100%;
   padding: 35px 15px;
-  margin: 60px 0 40px 0;
+  margin: 9vw 0;
   transition: 0.5s;
-  border: 2px solid transparent;
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
 }
 
 #virtues-body {
@@ -1314,28 +1315,28 @@ white: #fffbef */
   flex-direction: column;
   justify-content: space-evenly;
   text-align: center;
-  /* background-color: #524d5c;
-  color: #fffbef; */
   background-color: #fffbef;
   color: #524d5c;
   box-shadow: 5px 5px 5px black;
-  border-radius: 15px;
-  width: 90%;
-  margin: 20px 0;
+  width: 100%;
+  margin: 0 0 10vw 0;
   transition: 0.5s;
-  border: 2px solid transparent;
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
 }
 
 .virtues-title {
-  font-size: 2rem;
+  font-size: calc(30px + 20 * ((100vw - 335px) / 1265));
   line-height: 1.2;
   margin: 20px 0;
 }
 
 .virtues-text {
-  font-size: 1.1rem;
+  font-size: calc(16px + 4 * ((100vw - 335px) / 1265));
   margin: 20px 10px 20px 10px;
+  padding: 0 15px;
   display: flex;
+  line-height: 1.2;
   flex-direction: column;
 }
 
@@ -1352,7 +1353,7 @@ white: #fffbef */
 } */
 
 #virtues-3 {
-  margin: 20px 0 60px 0;
+  /* margin: 20px 0 60px 0; */
 }
 
 .virtues-hr {
@@ -1370,13 +1371,15 @@ white: #fffbef */
 .virtue:hover {
   background-color: #524d5c;
   color: #fffbef;
-  border: 2px solid #acccc6;
+  border-top: 2px solid #fffbef;
+  border-bottom: 2px solid #fffbef;
 }
 
 #virtues-header:hover {
   background-color: #524d5c;
   color: #fffbef;
-  border: 2px solid #acccc6;
+  border-top: 2px solid #fffbef;
+  border-bottom: 2px solid #fffbef;
 }
 
 .virtue:hover hr {
@@ -2248,7 +2251,7 @@ background: linear-gradient(
 
 
 
-#virtues-body {
+/* #virtues-body {
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -2269,7 +2272,6 @@ background: linear-gradient(
   border-radius: 15px;
   width: 90%;
   margin: 0 0;
-  /* height: 600px; */
 }
 
 .virtues-title {
@@ -2293,14 +2295,9 @@ background: linear-gradient(
   margin: 0 15px 0 0;
 }
 
-/* #virtues-2 {
-  height: 100%;
-} */
-
 #virtues-3 {
-  /* margin: 20px 0 60px 0; */
   margin: 0 0 80px 15px;
-}
+} */
 
 
 
@@ -2599,6 +2596,13 @@ background: linear-gradient(
   height: 100%;
   margin: 0 0;
   justify-content: flex-start;
+  border-right: 2px solid transparent;
+  border-left: 2px solid transparent;
+}
+
+.aboutus-box:hover {
+  border-right: 2px solid #fffbef;
+  border-left: 2px solid #fffbef;
 }
 
 .aboutus-title {
@@ -2649,30 +2653,44 @@ background: linear-gradient(
 
 
 
-
-.virtue {
+#virtues-body {
   display: flex;
-  flex-direction: column;
-  align-content: center;
-  text-align: center;
-  box-shadow: 5px 5px 5px black;
-  border-radius: 15px;
-  width: 90%;
-  margin: 0 0;
+  flex-direction: row;
+  align-items: stretch;
 }
 
-#virtues-1 {
-  margin: 0 40px 0 0;
-}
 
-#virtues-2 {
-  height: 100%;
-}
 
-#virtues-3 {
-  /* margin: 20px 0 60px 0; */
-  margin: 0 0 60px 40px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #areas-map {
   height: 50%;
@@ -2855,58 +2873,40 @@ padding: 0 1px;
 } */
 
 .aboutus-title {
-  margin: 20px 0 10px 0;
+  margin: 30px 0 20px 0;
 }
 
 .aboutus-box {
   margin: 0 2vw;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#virtues-header {
+  height: 150px;
+}
 
 .virtue {
-  display: flex;
-  flex-direction: column;
-
-  align-content: center;
-
-  text-align: center;
-  box-shadow: 5px 5px 5px black;
-  border-radius: 15px;
-  width: 90%;
-  margin: 0 0;
+  margin: 0 2vw 10vw 2vw;
 }
 
-#virtues-1 {
-  margin: 0 5% 0 0;
+.virtue {
+  border: 2px solid #fffbef;
 }
 
-#virtues-2 {
-  height: 100%;
-}
 
-#virtues-3 {
-  /* margin: 20px 0 60px 0; */
-  margin: 0 0 60px 5%;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
