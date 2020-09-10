@@ -16,7 +16,7 @@ export default class OfficeJunkRemoval extends Component {
               <span>Office Junk Removal</span>
             </div>
             <div className='gD-body'>
-              <span>Office junk removal is a breeze with Happy Wife Junk Service. Our customer driven junk service wants your experience to be pleasant and stress free. We haul any kind of junk you need. Happy Wife shows up on time and is a breeze to work with. We always put the needs of our clients first. We are determined to ensure that you feel comfortable and safe inviting us into your home. We always strive to serve you and provide you with a valuable service. Send us a text and we will contact you proptly, and your junk will be gone before you knew it possible.</span>
+              <span>Business is serious and you are upgrading the ergonomic environment around the office. Or something else. Happy Wife Junk Service excels at serving commercial clients. We know how schedules can be tight, and deadlines need to be met, that’s why we are dedicated to making sure your changes are done on time and professionally. Schedule us now and let Happy Wife Junk Service serve your office space junk removal needs.</span>
             </div>
             <div className='gD-go-back'>
               <Link to='/services' className='services-goback'><i className="arrow fas fa-arrow-left"></i><span>Back to List</span></Link>

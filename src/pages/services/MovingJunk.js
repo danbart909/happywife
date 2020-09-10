@@ -16,7 +16,7 @@ export default class MovingJunk extends Component {
               <span>Moving Junk</span>
             </div>
             <div className='gD-body'>
-              <span>Moving junk is a breeze with Happy Wife Junk Service. Our customer driven junk service wants your experience to be pleasant and stress free. We haul any kind of junk you need. Happy Wife shows up on time and is a breeze to work with. We always put the needs of our clients first. We are determined to ensure that you feel comfortable and safe inviting us into your home. We always strive to serve you and provide you with a valuable service. Send us a text and we will contact you proptly, and your junk will be gone before you knew it possible.</span>
+              <span>Moving? Leave behind all the extra junk, your new home needs new decor anyways. Let Happy Wife Junk Service make your move a little bit easier. Schedule us for moving day, and we can be there to right on time to make a stressful day a little less so. Happy Wife Junk Service does moving junk removal with exuberant passion! Call us now to see what we can do for you.</span>
             </div>
             <div className='gD-go-back'>
               <Link to='/services' className='services-goback'><i className="arrow fas fa-arrow-left"></i><span>Back to List</span></Link>

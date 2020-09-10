@@ -16,7 +16,7 @@ export default class YardDebrisRemoval extends Component {
               <span>Yard Debris Removal</span>
             </div>
             <div className='gD-body'>
-              <span>Yard debris removal is a breeze with Happy Wife Junk Service. Our customer driven junk service wants your experience to be pleasant and stress free. We haul any kind of junk you need. Happy Wife shows up on time and is a breeze to work with. We always put the needs of our clients first. We are determined to ensure that you feel comfortable and safe inviting us into your home. We always strive to serve you and provide you with a valuable service. Send us a text and we will contact you proptly, and your junk will be gone before you knew it possible.</span>
+              <span>Happy Wife Junk Service can take away all those annoying items clogging up your house or business. Do you have too much stuff in your garage, yard or business? We can haul it away in record time. The junk is taken from wherever it is on the property and the premises are left broom-clean. We haul away and properly dispose of all yard debris. When we can, we dump yard debris at a vegatative waste facility, helping the environment. We also will take furniture, trash, appliances, scrap metal, swing sets, sheds, carpet and much more. We always recycle or donate what we can. Call today and schedule your way to a happier life!</span>
             </div>
             <div className='gD-go-back'>
               <Link to='/services' className='services-goback'><i className="arrow fas fa-arrow-left"></i><span>Back to List</span></Link>

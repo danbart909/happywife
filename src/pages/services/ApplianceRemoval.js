@@ -16,7 +16,7 @@ export default class ApplianceRemoval extends Component {
               <span>Appliance Removal</span>
             </div>
             <div className='gD-body'>
-              <span>Appliance removal is a breeze with Happy Wife Junk Service. Our customer driven junk service wants your experience to be pleasant and stress free. We haul any kind of junk you need. Happy Wife shows up on time and is a breeze to work with. We always put the needs of our clients first. We are determined to ensure that you feel comfortable and safe inviting us into your home. We always strive to serve you and provide you with a valuable service. Send us a text and we will contact you proptly, and your junk will be gone before you knew it possible.</span>
+              <span>Out with the in, in with the new, right? Whether it be a whole warehouse full, or the sofa from the back porch, Happy Wife Junk Service is your go-to place for appliance junk removal. Happy Wife is dedicated to cleanliness. When we come into your abode, we will leave it the way you entrusted it to us. For single items, our single item charge applies! (That’s $99) No surprises here. Happy Wife Junk service makes single items and appliance removal easy and convenient.</span>
             </div>
             <div className='gD-go-back'>
               <Link to='/services' className='services-goback'><i className="arrow fas fa-arrow-left"></i><span>Back to List</span></Link>
