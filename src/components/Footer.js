@@ -24,7 +24,7 @@ export default class Footer extends Component {
               <span>Marietta, GA 30062</span>
             </div>
             <div id='f-info-3' className='f-info-box'>
-              <span>david@prettygood.com</span>
+              <span>dhbartlett12@gmail.com</span>
               <span>770.873.0803</span>
             </div>
           </div>
