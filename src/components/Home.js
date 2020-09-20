@@ -35,6 +35,13 @@ export default class Home extends Component {
         </div>
         <div id='home-mid'>
           <div id='home-second'>
+            <div id='home-img-container-2'>
+              <img
+                src='https://i.imgur.com/usX1Piu.png'
+                id='home-first-logo-2'
+                alt='company logo'
+              />
+            </div>
             <span>A Customer Service Driven Junk Removal Company</span>
           </div>
           <div id='home-mid-bot'>

@@ -183,9 +183,9 @@ white: #fffbef */
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: calc(18px + 22 * ((100vw - 335px) / 1265));
+  font-size: calc(18px + 20 * ((100vw - 335px) / 1265));
   animation: 2s ease-out 0s 1 slideInFromTop;
-  line-height: 0.8;
+  line-height: 1;
 }
 
 #top-nav-right-number {
@@ -710,7 +710,9 @@ white: #fffbef */
   background-color: #524d5c;
   width: 160px;
   height: 80px;
-  border: 2px solid #acccc4;
+  border-top: 2px solid #acccc4;
+  border-right: 2px solid #acccc4;
+  border-bottom: 2px solid #acccc4;
 }
 
 .gD-go-back a {
@@ -832,6 +834,7 @@ white: #fffbef */
   flex-direction: column;
   align-items: center;
   z-index: 10;
+  box-shadow: 3px 3px 5px black;
 }
 
 #home-top {
@@ -863,6 +866,14 @@ white: #fffbef */
   animation: 2s ease-in-out 0s 1 popIn;
 }
 
+#home-img-container-2 {
+  display: none;
+}
+
+#home-first-logo-2 {
+  display: none;
+}
+
 #home-mid {
   text-shadow: 3px 3px 5px black;
   /* box-shadow: 1px 1px 5px black; */
@@ -884,6 +895,7 @@ white: #fffbef */
   width: 100%;
   justify-content: center;
   text-align: center;
+  align-items: center;
   padding: 5vw 3vw;
   z-index: 10;
   line-height: 1.6;
@@ -894,9 +906,9 @@ white: #fffbef */
   border-bottom: 2px solid #fffbef;
 }
 
-#home-second:hover {
+/* #home-second:hover {
   background-color: #524d5c;
-}
+} */
 
 #home-mid-bot {
   display: flex;
@@ -2432,26 +2444,6 @@ background: linear-gradient(
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #home-top {
 
 }
@@ -2506,7 +2498,7 @@ background: linear-gradient(
   background-color: black;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 100%;
   /* background-attachment: fixed; */
   position: relative;
 }
@@ -2842,7 +2834,7 @@ padding: 0 1px;
 
 #virtues-header {
   height: 200px;
-  margin: 150px 0;
+  margin: 100px 0;
 }
 
 .virtue {
@@ -2853,33 +2845,6 @@ padding: 0 1px;
 #virtues-2 {
   margin: 0 0 150px 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -2914,6 +2879,69 @@ padding: 0 1px;
   line-height: 2;
   /* padding: 0 1px; */
 }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1200px) {
+
+  #home-img-container {
+    display: none;
+  }
+  
+  #home-first-logo {
+    display: none;
+  }
+
+  #home-img-container-2 {
+    display: flex;
+    width: 60%;
+    float: left;
+  }
+  
+  #home-first-logo-2 {
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    max-height: 500px;
+    animation: 2s ease-in-out 0s 1 popIn;
+    float: left;
+  }
+
+  #home-top {
+    margin: 5vw 0;
+  }
+
+  #home-second {
+    line-height: 2.5;
+  }
+
+
+
+
+
+
+
+
 
 
 }
