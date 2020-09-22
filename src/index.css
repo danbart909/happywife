@@ -1066,11 +1066,10 @@ white: #fffbef */
   border-top: 2px solid transparent;
   border-bottom: 2px solid transparent;
   margin: 5vw 0;
-  font-size: calc(16px + 4 * ((100vw - 335px) / 1265));
 }
 
 .aboutus-title {
-  font-size: calc(28px + 15 * ((100vw - 335px) / 1265));
+  font-size: calc(28px + 14 * ((100vw - 335px) / 1265));
   line-height: 1.2;
   margin: 0 0;
   display: flex;
@@ -1080,9 +1079,10 @@ white: #fffbef */
 }
 
 .aboutus-text {
-  font-size: 1.1rem;
   margin: 20px 10px 40px 10px;
   padding: 10px;
+  line-height: 1.8;
+  font-size: calc(15px + 3 * ((100vw - 335px) / 1265));
 }
 
 #aboutus {
@@ -2435,21 +2435,12 @@ background: linear-gradient(
 
 
 
-
-
-
-
-
-
-
-
-
 #home-top {
 
 }
 
 #home-mid {
-
+  /* margin: 0 0 30px 0; */
 }
 
 #home-mid-bot {
@@ -2538,7 +2529,7 @@ background: linear-gradient(
   flex-direction: row;
   justify-content: center;
   align-items: flex-start;
-  height: 450px;
+  height: 650px;
   /* border: 3px solid red; */
 }
 
@@ -2565,13 +2556,14 @@ background: linear-gradient(
 }
 
 .aboutus-text {
-  font-size: 1.1rem;
-  padding: 0 20px;
-  margin: 0 0 0 0;
+  /* font-size: 1.1rem; */
+  /* line-height: 1.2; */
+  /* padding: 0 20px; */
+  /* margin: 0 0 0 0; */
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80%;
+  /* height: 80%; */
 }
 
 
@@ -2928,14 +2920,20 @@ padding: 0 1px;
   }
 
   #home-top {
-    margin: 5vw 0;
+    margin: 5vw 0 0 0;
+  }
+
+  #home-mid {
+    margin: 0 0 0 0;
   }
 
   #home-second {
     line-height: 2.5;
   }
 
-
+  #aboutus-container {
+    height: 600px;
+  }
 
 
 
