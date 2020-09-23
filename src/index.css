@@ -285,17 +285,18 @@ white: #fffbef */
   border-top: 1px solid #524d5c;
   border-right: 1px solid #524d5c;
   border-bottom: 1px solid #524d5c;
-  transition: 0.4s;
+  transition: 0.5s;
 }
 
 .bottom-nav-button a {
   color: #524d5c;
   animation: 1.5s ease-out 0s 1 popIn;
-  transition: 0.4s;
+  transition: 0.5s;
 }
 
 .bottom-nav-button span {
-  transition: 0.4s;
+  color: #524d5c;
+  transition: 0.5s;
 }
 
 #bottom-nav-home-link {
@@ -313,6 +314,10 @@ white: #fffbef */
   transition: .5s;
 }
 
+#bottom-nav-home-link:hover span {
+  color: #acccc6;
+}
+
 #bottom-nav-areas-link {
   height: 100%;
   width: 100%;
@@ -325,6 +330,10 @@ white: #fffbef */
   background-color: #524d5c;
   color: #acccc6;
   transition: 0.5s;
+}
+
+#bottom-nav-areas-link:hover span {
+  color: #acccc6;
 }
 
 #bottom-nav-services-link {
@@ -342,6 +351,10 @@ white: #fffbef */
   transition: 0.5s;
 }
 
+#bottom-nav-services-link:hover span {
+  color: #acccc6;
+}
+
 #bottom-nav-pricing-link {
   height: 100%;
   width: 100%;
@@ -357,6 +370,10 @@ white: #fffbef */
   transition: .5s;
 }
 
+#bottom-nav-pricing-link:hover span {
+  color: #acccc6;
+}
+
 #bottom-nav-booknow-link {
   height: 100%;
   width: 100%;
@@ -369,6 +386,10 @@ white: #fffbef */
   background-color: #524d5c;
   color: #acccc6;
   transition: .5s;
+}
+
+#bottom-nav-booknow-link:hover span {
+  color: #acccc6;
 }
 
 #bottom-nav-booknow-link-span-2 {
@@ -651,7 +672,6 @@ white: #fffbef */
   border-top-left-radius: 0;
   border-bottom-right-radius: 15px;
   border-bottom-left-radius: 0; */
-  transition: 0.5s;
   line-height: 1;
   display: flex;
   flex-direction: column;
@@ -694,7 +714,7 @@ white: #fffbef */
     rgba(0, 0, 0, 0.6)
   );
   color: #fffbef;
-  font-size: calc(20px + 6 * ((100vw - 335px) / 1265));
+  font-size: calc(15px + 10 * ((100vw - 335px) / 1265));
   line-height: 2;
   padding: 1%;
   display: flex;
@@ -703,7 +723,6 @@ white: #fffbef */
   text-align: center;
   /* border-radius: 10px; */
   margin: 10vw 7vw;
-  transition: 0.5s;
 }
 
 .gD-go-back {
