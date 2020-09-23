@@ -725,8 +725,15 @@ white: #fffbef */
   transition: 0.5s;
 }
 
+.gD-go-back span {
+  color: #acccc6;
+}
+
 .gD-go-back a:hover {
   background-color: white;
+}
+
+.gD-go-back a:hover span {
   color: #524d5c;
 }
 
