@@ -37,7 +37,7 @@ export default class Home extends Component {
           <div id='home-second'>
             <div id='home-img-container-2'>
               <img
-                src='https://i.imgur.com/usX1Piu.png'
+                src='../images/companylogo.png'
                 id='home-first-logo-2'
                 alt='company logo'
               />
