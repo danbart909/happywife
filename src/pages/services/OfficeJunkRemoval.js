@@ -7,8 +7,8 @@ export default class OfficeJunkRemoval extends Component {
     return (
       <>
         <Helmet>
-          <title>Happy Wife - Office Junk Removal</title>
-          <meta name="description" content="Happy Wife - Office Junk Removal" />
+          <title>Happy Wife Junk Removal - Office Junk Removal</title>
+          <meta name="description" content="Happy Wife Junk Removal - Office Junk Removal" />
         </Helmet>
         <div className='gD services OfficeJunkRemoval UL'>
           <div className='gD-box'>

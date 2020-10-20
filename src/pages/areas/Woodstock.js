@@ -7,8 +7,8 @@ export default class Woodstock extends Component {
     return (
       <>
         <Helmet>
-          <title>Happy Wife - Woodstock</title>
-          <meta name="description" content="Happy Wife - Woodstock" />
+          <title>Happy Wife Junk Removal - Woodstock Junk Removal</title>
+          <meta name="description" content="Haul away your garbage with the best junk removal company in Woodstock, GA" />
         </Helmet>
         <div className='gD areas Woodstock UL'>
           <div className='gD-box'>

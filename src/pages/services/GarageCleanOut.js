@@ -7,8 +7,8 @@ export default class GarageCleanOut extends Component {
     return (
       <>
         <Helmet>
-          <title>Happy Wife - Garage Clean Out</title>
-          <meta name="description" content="Happy Wife - Garage Clean Out" />
+          <title>Happy Wife Junk Removal - Garage Clean Out</title>
+          <meta name="description" content="Happy Wife Junk Removal - Garage Clean Out" />
         </Helmet>
         <div className='gD services GarageCleanOut UL'>
           <div className='gD-box'>

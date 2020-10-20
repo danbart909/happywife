@@ -7,8 +7,8 @@ export default class Smyrna extends Component {
     return (
       <>
         <Helmet>
-          <title>Happy Wife - Smyrna</title>
-          <meta name="description" content="Happy Wife - Smyrna" />
+          <title>Happy Wife Junk Removal - Smyrna Junk Removal</title>
+          <meta name="description" content="Haul away your garbage with the best junk removal company in Smyrna, GA" />
         </Helmet>
         <div className='gD areas Smyrna UL'>
           <div className='gD-box'>

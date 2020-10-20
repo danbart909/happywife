@@ -7,8 +7,8 @@ export default class AtticJunkRemoval extends Component {
     return (
       <>
         <Helmet>
-          <title>Happy Wife - Attic Junk Removal</title>
-          <meta name="description" content="Happy Wife - Attic Junk Removal" />
+          <title>Happy Wife Junk Removal - Attic Junk Removal</title>
+          <meta name="description" content="Happy Wife Junk Removal - Attic Junk Removal" />
         </Helmet>
         <div className='gD services AtticJunkRemoval UL'>
           <div className='gD-box'>

@@ -88,16 +88,16 @@ export default class Areas extends Component {
             <div id='areas-body'>
 
               <div id='areas-list'>
-                <Link className='acworth bonkle' to='/areas/Acworth'><span>Acworth</span></Link>
-                <Link className='austell bonkle' to='/areas/Austell'><span>Austell</span></Link>
-                <Link className='kennesaw bonkle' to='/areas/Kennesaw'><span>Kennesaw</span></Link>
-                <Link className='marietta bonkle' to='/areas/Marietta'><span>Marietta</span></Link>
-                <Link className='mableton bonkle' to='/areas/Mableton'><span>Mableton</span></Link>
-                <Link className='powdersprings bonkle' to='/areas/PowderSprings'><span>Powder Springs</span></Link>
-                <Link className='roswell bonkle' to='/areas/Roswell'><span>Roswell</span></Link>
-                <Link className='smyrna bonkle' to='/areas/Smyrna'><span>Smyrna</span></Link>
-                <Link className='vinings bonkle' to='/areas/Vinings'><span>Vinings</span></Link>
-                <Link className='woodstock bonkle' to='/areas/Woodstock'><span>Woodstock</span></Link>
+                <Link className='acworth' to='/areas/Acworth-Junk-Removal'><span>Acworth</span></Link>
+                <Link className='austell' to='/areas/Austell-Junk-Removal'><span>Austell</span></Link>
+                <Link className='kennesaw' to='/areas/Kennesaw-Junk-Removal'><span>Kennesaw</span></Link>
+                <Link className='marietta' to='/areas/Marietta-Junk-Removal'><span>Marietta</span></Link>
+                <Link className='mableton' to='/areas/Mableton-Junk-Removal'><span>Mableton</span></Link>
+                <Link className='powdersprings' to='/areas/PowderSprings-Junk-Removal'><span>Powder Springs</span></Link>
+                <Link className='roswell' to='/areas/Roswell-Junk-Removal'><span>Roswell</span></Link>
+                <Link className='smyrna' to='/areas/Smyrna-Junk-Removal'><span>Smyrna</span></Link>
+                <Link className='vinings' to='/areas/Vinings-Junk-Removal'><span>Vinings</span></Link>
+                <Link className='woodstock' to='/areas/Woodstock-Junk-Removal'><span>Woodstock</span></Link>
               </div>
 
               <div id='areas-map-container'>

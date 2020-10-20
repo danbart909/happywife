@@ -7,8 +7,8 @@ export default class LoveSeatRemoval extends Component {
     return (
       <>
         <Helmet>
-          <title>Happy Wife - Love Seat Removal</title>
-          <meta name="description" content="Happy Wife - Love Seat Removal" />
+          <title>Happy Wife Junk Removal - Love Seat Removal</title>
+          <meta name="description" content="Happy Wife Junk Removal - Love Seat Removal" />
         </Helmet>
         <div className='gD services LoveSeatRemoval UL'>
           <div className='gD-box'>

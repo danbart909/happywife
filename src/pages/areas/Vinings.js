@@ -7,8 +7,8 @@ export default class Vinings extends Component {
     return (
       <>
         <Helmet>
-          <title>Happy Wife - Vinings</title>
-          <meta name="description" content="Happy Wife - Vinings" />
+          <title>Happy Wife Junk Removal - Vinings Junk Removal</title>
+          <meta name="description" content="Haul away your garbage with the best junk removal company in Vinings, GA" />
         </Helmet>
         <div className='gD areas Vinings UL'>
           <div className='gD-box'>

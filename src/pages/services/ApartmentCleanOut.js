@@ -7,13 +7,13 @@ export default class ApartmentCleanOut extends Component {
     return (
       <>
         <Helmet>
-          <title>Happy Wife - Apartment Clean Out</title>
-          <meta name="description" content="Happy Wife - Apartment Clean Out" />
+          <title>Happy Wife Junk Removal - Apartment Clean Out</title>
+          <meta name="description" content="Happy Wife Junk Removal - Apartment Clean Out" />
         </Helmet>
         <div className='gD services ApartmentCleanOut UL'>
           <div className='gD-box'>
             <div className='gD-title'>
-              <span>Apartment Clean Out</span>
+              <div>Apartment Clean Out</div>
             </div>
             <div className='gD-body'>
               <span>Apartment clean out is a breeze with Happy Wife Junk Service. Our customer driven junk service wants your experience to be pleasant and stress free. We haul any kind of junk you need. Happy Wife shows up on time and is a breeze to work with. We always put the needs of our clients first. We are determined to ensure that you feel comfortable and safe inviting us into your home. We always strive to serve you and provide you with a valuable service. Send us a text and we will contact you proptly, and your junk will be gone before you knew it possible.</span>

@@ -7,8 +7,8 @@ export default class MattressRemoval extends Component {
     return (
       <>
         <Helmet>
-          <title>Happy Wife - Mattress Removal</title>
-          <meta name="description" content="Happy Wife - Mattress Removal" />
+          <title>Happy Wife Junk Removal - Mattress Removal</title>
+          <meta name="description" content="Happy Wife Junk Removal - Mattress Removal" />
         </Helmet>
         <div className='gD services MattressRemoval UL'>
           <div className='gD-box'>

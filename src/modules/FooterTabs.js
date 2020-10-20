@@ -35,22 +35,22 @@ export default class FooterTabs extends Component {
         <TabContent for="services">
           <div id='footer-services-title' className='footer-title'>Our Services</div>
           <div className='footer-tab-content' id='footer-services-body'>
-            <Link to='/services/ApplianceRemoval'><span>Appliance Removal</span></Link>
-            <Link to='/services/BasementCleanOut'><span>Basement Clean Out</span></Link>
-            <Link to='/services/FurnitureJunkRemoval'><span>Furniture Junk Removal</span></Link>
-            <Link to='/services/GarageCleanOut'><span>Garage Clean Out</span></Link>
-            <Link to='/services/HouseholdJunkRemoval'><span>Household Junk Removal</span></Link>
-            <Link to='/services/MovingJunk'><span>Moving Junk</span></Link>
-            <Link to='/services/YardDebrisRemoval'><span>Yard Debris Removal</span></Link>
-            <Link to='/services/ApartmentCleanOut'><span>Apartment Clean Out</span></Link>
-            <Link to='/services/OfficeJunkRemoval'><span>Office Junk Removal</span></Link>
-            <Link to='/services/StorageUnitCleanOut'><span>Storage Unit Clean Out</span></Link>
-            <Link to='/services/WarehouseCleanOut'><span>Warehouse Clean Out</span></Link>
-            <Link to='/services/CouchRemoval'><span>Couch Removal</span></Link>
-            <Link to='/services/DresserRemoval'><span>Dresser Removal</span></Link>
-            <Link to='/services/EntertainmentCenterRemoval'><span>Entertainment Center Removal</span></Link>
-            <Link to='/services/TableAndChairsRemoval'><span>Table and Chairs Removal</span></Link>
-            <Link to='/services/TVRemoval'><span>TV Removal</span></Link>
+            <Link to='/services/Appliance-Removal'><span>Appliance Removal</span></Link>
+            <Link to='/services/Basement-Clean-Out'><span>Basement Clean Out</span></Link>
+            <Link to='/services/Furniture-Junk-Removal'><span>Furniture Junk Removal</span></Link>
+            <Link to='/services/Garage-Clean-Out'><span>Garage Clean Out</span></Link>
+            <Link to='/services/Household-Junk-Removal'><span>Household Junk Removal</span></Link>
+            <Link to='/services/Moving-Junk'><span>Moving Junk</span></Link>
+            <Link to='/services/Yard-Debris-Removal'><span>Yard Debris Removal</span></Link>
+            <Link to='/services/Apartment-Clean-Out'><span>Apartment Clean Out</span></Link>
+            <Link to='/services/Office-Junk-Removal'><span>Office Junk Removal</span></Link>
+            <Link to='/services/Storage-Unit-Clean-Out'><span>Storage Unit Clean Out</span></Link>
+            <Link to='/services/Warehouse-Clean-Out'><span>Warehouse Clean Out</span></Link>
+            <Link to='/services/Couch-Removal'><span>Couch Removal</span></Link>
+            <Link to='/services/Dresser-Removal'><span>Dresser Removal</span></Link>
+            <Link to='/services/Entertainment-Center-Removal'><span>Entertainment Center Removal</span></Link>
+            <Link to='/services/Table-and-Chairs-Removal'><span>Table and Chairs Removal</span></Link>
+            <Link to='/services/TV-Removal'><span>TV Removal</span></Link>
           </div>
         </TabContent>
         <TabContent for="zip">
@@ -82,16 +82,16 @@ export default class FooterTabs extends Component {
         <TabContent for="cities">
           <div id='footer-cities-title' className='footer-title'>Our Cities</div>
           <div className='footer-tab-content' id='footer-cities-body'>
-            <Link to='/areas/Acworth'><span>Acworth</span></Link>
-            <Link to='/areas/Austell'><span>Austell</span></Link>
-            <Link to='/areas/Kennesaw'><span>Kennesaw</span></Link>
-            <Link to='/areas/Marietta'><span>Marietta</span></Link>
-            <Link to='/areas/Mableton'><span>Mableton</span></Link>
-            <Link to='/areas/PowderSprings'><span>Powder Springs</span></Link>
-            <Link to='/areas/Roswell'><span>Roswell</span></Link>
-            <Link to='/areas/Smyrna'><span>Smyrna</span></Link>
-            <Link to='/areas/Vinings'><span>Vinings</span></Link>
-            <Link to='/areas/Woodstock'><span>Woodstock</span></Link>
+            <Link to='/areas/Acworth-Junk-Removal'><span>Acworth</span></Link>
+            <Link to='/areas/Austell-Junk-Removal'><span>Austell</span></Link>
+            <Link to='/areas/Kennesaw-Junk-Removal'><span>Kennesaw</span></Link>
+            <Link to='/areas/Marietta-Junk-Removal'><span>Marietta</span></Link>
+            <Link to='/areas/Mableton-Junk-Removal'><span>Mableton</span></Link>
+            <Link to='/areas/PowderSprings-Junk-Removal'><span>Powder Springs</span></Link>
+            <Link to='/areas/Roswell-Junk-Removal'><span>Roswell</span></Link>
+            <Link to='/areas/Smyrna-Junk-Removal'><span>Smyrna</span></Link>
+            <Link to='/areas/Vinings-Junk-Removal'><span>Vinings</span></Link>
+            <Link to='/areas/Woodstock-Junk-Removal'><span>Woodstock</span></Link>
           </div>
         </TabContent>
       </Tabs>

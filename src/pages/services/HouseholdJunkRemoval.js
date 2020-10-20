@@ -7,8 +7,8 @@ export default class HouseholdJunkRemoval extends Component {
     return (
       <>
         <Helmet>
-          <title>Happy Wife - Household Junk Removal</title>
-          <meta name="description" content="Household Junk Removal" />
+          <title>Happy Wife Junk Removal - Household Junk Removal</title>
+          <meta name="description" content="Happy Wife Junk Removal - Household Junk Removal" />
         </Helmet>
         <div className='gD services HouseholdJunkRemoval UL'>
           <div className='gD-box'>

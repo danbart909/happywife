@@ -7,8 +7,8 @@ export default class ReclinerRemoval extends Component {
     return (
       <>
         <Helmet>
-          <title>Happy Wife - Recliner Removal</title>
-          <meta name="description" content="Happy Wife - Recliner Removal" />
+          <title>Happy Wife Junk Removal - Recliner Removal</title>
+          <meta name="description" content="Happy Wife Junk Removal - Recliner Removal" />
         </Helmet>
         <div className='gD services ReclinerRemoval UL'>
           <div className='gD-box'>

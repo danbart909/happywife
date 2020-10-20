@@ -7,8 +7,8 @@ export default class BulkTrashPickUp extends Component {
     return (
       <>
         <Helmet>
-          <title>Happy Wife - Bulk Trash Pick Up</title>
-          <meta name="description" content="Happy Wife - Bulk Trash Pick Up" />
+          <title>Happy Wife Junk Removal - Bulk Trash Pick Up</title>
+          <meta name="description" content="Happy Wife Junk Removal - Bulk Trash Pick Up" />
         </Helmet>
         <div className='gD services BulkTrashPickUp UL'>
           <div className='gD-box'>

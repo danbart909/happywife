@@ -7,8 +7,8 @@ export default class Austell extends Component {
     return (
       <>
         <Helmet>
-          <title>Happy Wife - Austell</title>
-          <meta name="description" content="Happy Wife - Austell" />
+          <title>Happy Wife Junk Removal - Austell Junk Removal</title>
+          <meta name="description" content="Haul away your garbage with the best junk removal company in Austell, GA" />
         </Helmet>
         <div className='gD areas Austell UL'>
           <div className='gD-box'>

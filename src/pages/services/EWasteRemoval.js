@@ -7,8 +7,8 @@ export default class EWasteRemoval extends Component {
     return (
       <>
         <Helmet>
-          <title>Happy Wife - E-Waste Removal</title>
-          <meta name="description" content="Happy Wife - E-Waste Removal" />
+          <title>Happy Wife Junk Removal - E-Waste Removal</title>
+          <meta name="description" content="Happy Wife Junk Removal - E-Waste Removal" />
         </Helmet>
         <div className='gD services EWasteRemoval UL'>
           <div className='gD-box'>

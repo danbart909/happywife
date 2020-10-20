@@ -7,8 +7,8 @@ export default class Kennesaw extends Component {
     return (
       <>
         <Helmet>
-          <title>Happy Wife - Kennesaw</title>
-          <meta name="description" content="Happy Wife - Kennesaw" />
+          <title>Happy Wife Junk Removal - Kennesaw Junk Removal</title>
+          <meta name="description" content="Haul away your garbage with the best junk removal company in Kennesaw, GA" />
         </Helmet>
         <div className='gD areas Kennesaw UL'>
           <div className='gD-box'>

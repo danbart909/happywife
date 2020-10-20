@@ -7,8 +7,8 @@ export default class StorageUnitCleanOut extends Component {
     return (
       <>
         <Helmet>
-          <title>Happy Wife - Storage Unit Clean Out</title>
-          <meta name="description" content="Happy Wife - Storage Unit Clean Out" />
+          <title>Happy Wife Junk Removal - Storage Unit Clean Out</title>
+          <meta name="description" content="Happy Wife Junk Removal - Storage Unit Clean Out" />
         </Helmet>
         <div className='gD services StorageUnitCleanOut UL'>
           <div className='gD-box'>

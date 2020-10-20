@@ -7,8 +7,8 @@ export default class Mableton extends Component {
     return (
       <>
         <Helmet>
-          <title>Happy Wife - Kennesaw</title>
-          <meta name="description" content="Happy Wife - Kennesaw" />
+          <title>Happy Wife Junk Removal - Mableton Junk Removal</title>
+          <meta name="description" content="Haul away your garbage with the best junk removal company in Mablelton, GA" />
         </Helmet>
         <div className='gD areas Mableton UL'>
           <div className='gD-box'>

@@ -7,8 +7,8 @@ export default class ForeclosureJunkRemoval extends Component {
     return (
       <>
         <Helmet>
-          <title>Happy Wife - Foreclosure Junk Removal</title>
-          <meta name="description" content="Happy Wife - Foreclosure Junk Removal" />
+          <title>Happy Wife Junk Removal - Foreclosure Junk Removal</title>
+          <meta name="description" content="Happy Wife Junk Removal - Foreclosure Junk Removal" />
         </Helmet>
         <div className='gD services ForeclosureJunkRemoval UL'>
           <div className='gD-box'>

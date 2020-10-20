@@ -7,8 +7,8 @@ export default class EntertainmentCenterRemoval extends Component {
     return (
       <>
         <Helmet>
-          <title>Happy Wife - Entertainment Center Removal</title>
-          <meta name="description" content="Happy Wife - Entertainment Center Removal" />
+          <title>Happy Wife Junk Removal - Entertainment Center Removal</title>
+          <meta name="description" content="Happy Wife Junk Removal - Entertainment Center Removal" />
         </Helmet>
         <div className='gD services EntertainmentCenterRemoval UL'>
           <div className='gD-box'>

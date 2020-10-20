@@ -7,8 +7,8 @@ export default class Acworth extends Component {
     return (
       <>
         <Helmet>
-          <title>Happy Wife - Acworth</title>
-          <meta name="description" content="Happy Wife - Acworth" />
+          <title>Happy Wife Junk Removal - Acworth Junk Removal</title>
+          <meta name="description" content="Haul away your garbage with the best junk removal company in Acworth, GA" />
         </Helmet>
         <div className='gD areas Acworth UL'>
           <div className='gD-box'>

@@ -7,8 +7,8 @@ export default class Roswell extends Component {
     return (
       <>
         <Helmet>
-          <title>Happy Wife - Roswell</title>
-          <meta name="description" content="Happy Wife - Roswell" />
+          <title>Happy Wife Junk Removal - Roswell Junk Removal</title>
+          <meta name="description" content="Haul away your garbage with the best junk removal company in Roswell, GA" />
         </Helmet>
         <div className='gD areas Roswell UL'>
           <div className='gD-box'>

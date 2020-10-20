@@ -7,8 +7,8 @@ export default class Marietta extends Component {
     return (
       <>
         <Helmet>
-          <title>Happy Wife - Marietta</title>
-          <meta name="description" content="Happy Wife - Marietta" />
+          <title>Happy Wife Junk Removal - Marietta Junk Removal</title>
+          <meta name="description" content="Haul away your garbage with the best junk removal company in Marietta, GA" />
         </Helmet>
         <div className='gD areas Marietta UL'>
           <div className='gD-box'>

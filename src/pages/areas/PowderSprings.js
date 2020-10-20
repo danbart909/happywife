@@ -7,8 +7,8 @@ export default class PowderSprings extends Component {
     return (
       <>
         <Helmet>
-          <title>Happy Wife - Powder Springs</title>
-          <meta name="description" content="Happy Wife - PowderSprings" />
+          <title>Happy Wife Junk Removal - Powder Springs Junk Removal</title>
+          <meta name="description" content="Haul away your garbage with the best junk removal company in Powder Springs, GA" />
         </Helmet>
         <div className='gD areas PowderSprings UL'>
           <div className='gD-box'>
