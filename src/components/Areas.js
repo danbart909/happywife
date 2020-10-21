@@ -1,8 +1,17 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet';
-import Roswell from '../pages/areas/Roswell';
 import $ from 'jquery'
+import Acworth from '../images/Acworth.jpg'
+import Austell from '../images/Austell.jpg'
+import Kennesaw from '../images/Kennesaw.jpg'
+import Marietta from '../images/Marietta.jpg'
+import Mableton from '../images/Mableton.jpg'
+import PowderSprings from '../images/PowderSprings.jpg'
+import Roswell from '../images/Roswell.jpg'
+import Smyrna from '../images/Smyrna.jpg'
+import Vinings from '../images/Vinings.jpg'
+import Woodstock from '../images/Woodstock.jpg'
 
 export default class Areas extends Component {
   render() {
@@ -12,61 +21,61 @@ export default class Areas extends Component {
       $('#areas-title').fadeIn(4000, 'linear')
 
       $('.acworth').hover(function() {
-        $('#areas-map').css('background-image', 'url(https://i.imgur.com/q1shkdc.jpg)')
+        $('#areas-map').css('background-image', 'url(' + Acworth + ')')
       // }, function() {
       //   $('#areas-map').css('background-image', '');
       })
 
       $('.austell').hover(function() {
-        $('#areas-map').css('background-image', 'url(https://i.imgur.com/xxASiH7.jpg)')
+        $('#areas-map').css('background-image', 'url(' + Austell + ')')
       // }, function() {
       //   $('#areas-map').css('background-image', '');
       })
 
       $('.kennesaw').hover(function() {
-        $('#areas-map').css('background-image', 'url(https://i.imgur.com/b6RqwPU.jpg)')
+        $('#areas-map').css('background-image', 'url(' + Kennesaw + ')')
       // }, function() {
       //   $('#areas-map').css('background-image', '');
       })
 
       $('.marietta').hover(function() {
-        $('#areas-map').css('background-image', 'url(https://i.imgur.com/bNArkD5.jpg)')
+        $('#areas-map').css('background-image', 'url(' + Marietta + ')')
       // }, function() {
       //   $('#areas-map').css('background-image', '');
       })
 
       $('.mableton').hover(function() {
-        $('#areas-map').css('background-image', 'url(https://i.imgur.com/H55jJQD.jpg)')
+        $('#areas-map').css('background-image', 'url(' + Mableton + ')')
       // }, function() {
       //   $('#areas-map').css('background-image', '');
       })
 
       $('.powdersprings').hover(function() {
-        $('#areas-map').css('background-image', 'url(https://i.imgur.com/VwCkOY0.jpg)')
+        $('#areas-map').css('background-image', 'url(' + PowderSprings + ')')
       // }, function() {
       //   $('#areas-map').css('background-image', '');
       })
 
       $('.roswell').hover(function() {
-        $('#areas-map').css('background-image', 'url(https://i.imgur.com/wC2yC1k.jpg)')
+        $('#areas-map').css('background-image', 'url(' + Roswell + ')')
       // }, function() {
       //   $('#areas-map').css('background-image', '');
       })
 
       $('.smyrna').hover(function() {
-        $('#areas-map').css('background-image', 'url(https://i.imgur.com/Qb2P44a.jpg)')
+        $('#areas-map').css('background-image', 'url(' + Smyrna + ')')
       // }, function() {
       //   $('#areas-map').css('background-image', '');
       })
 
       $('.vinings').hover(function() {
-        $('#areas-map').css('background-image', 'url(https://i.imgur.com/rahFD2X.jpg)')
+        $('#areas-map').css('background-image', 'url(' + Vinings + ')')
       // }, function() {
       //   $('#areas-map').css('background-image', '');
       })
 
       $('.woodstock').hover(function() {
-        $('#areas-map').css('background-image', 'url(https://i.imgur.com/SECGbkl.jpg)')
+        $('#areas-map').css('background-image', 'url(' + Woodstock + ')')
       // }, function() {
       //   $('#areas-map').css('background-image', '');
       })

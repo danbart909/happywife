@@ -635,7 +635,7 @@ white: #fffbef */
     to bottom,
     rgba(0, 0, 0, 0.3),
     rgba(0, 0, 0, 0.3)
-  ), url("https://i.imgur.com/R0jJoMQ.jpg"); */
+  ), url("images/dadintrailer2.jpg"); */
   background-color: black;
   background-position: center;
   background-repeat: no-repeat;
@@ -773,7 +773,7 @@ white: #fffbef */
     to bottom,
     rgba(0, 0, 0, 0.3),
     rgba(0, 0, 0, 0.3)
-  ), url("https://i.imgur.com/C8Ezwlc.jpg");
+  ), url("images/dadcarry1.jpg");
   background-color: black;
   background-position: center;
   background-repeat: no-repeat;
@@ -851,7 +851,7 @@ white: #fffbef */
     to bottom,
     rgba(0, 0, 0, 0.3),
     rgba(0, 0, 0, 0.3)
-  ), url("https://i.imgur.com/SbPeX96.jpg");
+  ), url("images/dadcarry2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1065,7 +1065,7 @@ white: #fffbef */
 #aboutus-container {
   /* background-color: #acccc6;
   color: #524d5c; */
-  /* background-image: url("https://i.imgur.com/SbPeX96.jpg");
+  /* background-image: url("images/dadcarry2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1200,7 +1200,7 @@ white: #fffbef */
 
 
 /* #midbanner-container {
-  background-image: url("https://i.imgur.com/SbPeX96.jpg");
+  background-image: url("images/dadcarry1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1456,7 +1456,7 @@ white: #fffbef */
     to bottom,
     rgba(0, 0, 0, 0.3),
     rgba(0, 0, 0, 0.3)
-  ), url("https://i.imgur.com/C8Ezwlc.jpg");
+  ), url("images/dadcarry1.jpg");
   background-color: #cccccc;
   background-position: center;
   background-repeat: no-repeat;
@@ -1616,7 +1616,7 @@ white: #fffbef */
   display: flex;
   width: 80%;
   height: 20%;
-  background-image: url(https://i.imgur.com/p6fCrlG.jpg);
+  background-image: url('images/startmap.jpg');
   background-color: #cccccc;  
   background-position: center;
   background-repeat: no-repeat;
@@ -1656,7 +1656,7 @@ white: #fffbef */
     to bottom,
     rgba(0, 0, 0, 0.3),
     rgba(0, 0, 0, 0.3)
-  ), url("https://i.imgur.com/R0jJoMQ.jpg");
+  ), url("images/dadintrailer1.jpg");
   background-color: #cccccc;
   background-position: center;
   background-repeat: no-repeat;
@@ -1760,8 +1760,8 @@ background: linear-gradient(
     to bottom,
     rgba(0, 0, 0, 0.3),
     rgba(0, 0, 0, 0.3)
-  /* ), url("https://i.imgur.com/R0jJoMQ.jpg"); */
-), url(https://www.historic-uk.com/wp-content/uploads/2017/06/1950s-housewife.jpg);
+/* ), url(https://www.historic-uk.com/wp-content/uploads/2017/06/1950s-housewife.jpg); */
+), url('images/1950s-housewife.jpg');
   background-color: #cccccc;
   background-position: center;
   background-repeat: no-repeat;
@@ -1799,7 +1799,7 @@ background: linear-gradient(
     to bottom,
     rgba(0, 0, 0, 0.3),
     rgba(0, 0, 0, 0.3)
-  ), url("https://i.imgur.com/KBWAbDH.jpg");
+  ), url("images/dadintrailer1.jpg");
   background-color: #cccccc;
   background-position: center;
   background-repeat: no-repeat;
@@ -1960,7 +1960,7 @@ background: linear-gradient(
     to bottom,
     rgba(0, 0, 0, 0.3),
     rgba(0, 0, 0, 0.3)
-  ), url("https://i.imgur.com/gt1qQom.jpg");
+  ), url("images/davidcarry.jpg");
   background-color: #cccccc;
   background-position: center;
   background-repeat: no-repeat;
@@ -2285,7 +2285,7 @@ background: linear-gradient(
 }
 
 /* #home-fourth {
-  background-image: url(https://i.imgur.com/jvtvG2G.jpg);
+  background-image: url("images/trailer1.jpg");
 } */
 
 
@@ -2511,7 +2511,7 @@ background: linear-gradient(
     to bottom,
     rgba(0, 0, 0, 0.3),
     rgba(0, 0, 0, 0.3)
-  ), url("https://i.imgur.com/b1pUaPw.jpg");
+  ), url("images/trailer1.jpg");
   background-color: black;
   background-position: center;
   background-repeat: no-repeat;
@@ -2711,7 +2711,7 @@ padding: 0 1px;
     to bottom,
     rgba(0, 0, 0, 0.3),
     rgba(0, 0, 0, .3)
-  ), url("https://i.imgur.com/R0jJoMQ.jpg");
+  ), url("images/dadintrailer2.jpg");
   background-color: #cccccc;
   background-position: center;
   background-repeat: no-repeat;

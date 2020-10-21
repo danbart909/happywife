@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import companylogo from '../images/companylogo.png'
 
 export default class TopNav extends Component {
   render() {
@@ -7,7 +8,7 @@ export default class TopNav extends Component {
         <div id='top-nav'>
 
           <div id='top-nav-left'>
-            <img src='https://i.imgur.com/usX1Piu.png' alt='company logo' />
+            <img src={companylogo} alt='company logo' />
           </div>
 
           <div id='top-nav-right'>
