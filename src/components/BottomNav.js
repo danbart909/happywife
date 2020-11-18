@@ -1,5 +1,5 @@
 import React, { Component, createRef } from 'react'
-import { Link, NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import Sticky from 'react-sticky-el';
 
 export default class BottomNav extends Component {
