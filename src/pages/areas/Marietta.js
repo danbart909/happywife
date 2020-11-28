@@ -16,7 +16,7 @@ export default class Marietta extends Component {
               <span>Marietta</span>
             </div>
             <div className='gD-body'>
-              <span>Our Marietta Junk Removal team believes that you deserve to know that everyone who comes into your house should be upright, honest men and women. That’s why we honor your home and your family. We will never track dirt into you house or use profanity around you or your children. Your comfort and ease of mind is our utmost concern. We never provide a service that we wouldn’t be proud of! Whether you need furniture removal, appliance removal, property clean out, or and other form of household junk, Happy Wife junk service is there for you. Our fast, reliable service is a favorite for those looking for Marietta junk hauling.</span>
+              <span>Whatever you need removed from your Marietta Georgia location, Happy Wife Junk Service can do the job. We can handle any job, whether big or small. From a single piece of furniture to whole a whole giant load, we can do it. Happy Wife Junk Service also donates and recycles anything we can. Call Happy Wife Junk Service today to schedule.</span>
             </div>
             <div className='gD-go-back'>
               <Link to='/areas' className='areas-goback'><i className="arrow fas fa-arrow-left"></i><span>Back to List</span></Link>

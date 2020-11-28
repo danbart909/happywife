@@ -16,7 +16,7 @@ export default class Austell extends Component {
               <span>Austell</span>
             </div>
             <div className='gD-body'>
-              <span>Our Austell Junk Removal team believes that you deserve to know that everyone who comes into your house should be upright, honest men and women. That’s why we honor your home and your family. We will never track dirt into you house or use profanity around you or your children. Your comfort and ease of mind is our utmost concern. We never provide a service that we wouldn’t be proud of! Whether you need furniture removal, appliance removal, property clean out, or and other form of household junk, Happy Wife junk service is there for you. Our fast, reliable service is a favorite for those looking for Austell junk hauling.</span>
+              <span>We offer great removal and hauling rates to the people of Austell Georgia. We have low prices and timely, professional service. Whether you're a business in Austell, a non-profit, a home owner, or a renter, we can help you with your Austell junk removal needs. We do small one-time loads as well as regular recurring service. If your closets are overflowing with junk, your store has regular hauling needs, or you've just completed landscaping and have a ton of yard waste that needs to be trashed, we can help.</span>
             </div>
             <div className='gD-go-back'>
               <Link to='/areas' className='areas-goback'><i className="arrow fas fa-arrow-left"></i><span>Back to List</span></Link>
