@@ -342,7 +342,7 @@ white: #fffbef */
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0 5px;
+  padding: 0 2px;
 }
 
 #bottom-nav-services-link:hover {
@@ -631,11 +631,11 @@ white: #fffbef */
 
 
 .gD {
-  /* background: linear-gradient(
+  background: linear-gradient(
     to bottom,
     rgba(0, 0, 0, 0.3),
     rgba(0, 0, 0, 0.3)
-  ), url("images/dadintrailer2.jpg"); */
+  ), url("images/dadintrailer2.jpg");
   background-color: black;
   background-position: center;
   background-repeat: no-repeat;
@@ -653,6 +653,14 @@ white: #fffbef */
   align-items: flex-start;
   width: 100%;
   margin: 12vw 0;
+}
+
+.gD-box a {
+  color: #acccc6;
+}
+
+.gD-box a:hover {
+  color: #acccc6;
 }
 
 .gD-title {
@@ -716,13 +724,41 @@ white: #fffbef */
   color: #fffbef;
   font-size: calc(15px + 10 * ((100vw - 335px) / 1265));
   line-height: 2;
-  padding: 1%;
+  padding: 3%;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   /* border-radius: 10px; */
-  margin: 10vw 7vw;
+  margin: 7vw 7vw;
+}
+
+.gD-list {
+  text-shadow: 3px 3px 5px black;
+  box-shadow: 1px 1px 5px black;
+  background: 
+  linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)
+  );
+  color: #fffbef;
+  font-size: calc(15px + 10 * ((100vw - 335px) / 1265));
+  line-height: 2;
+  padding: 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* border-radius: 10px; */
+  margin: 0vw 7vw 7vw;
+  width: 86%;
+}
+
+.gD-list-title {
+  font-size: calc(25px + 10 * ((100vw - 335px) / 1265));
+  padding: 0 0 2vw 0;
 }
 
 .gD-go-back {
@@ -1679,9 +1715,30 @@ white: #fffbef */
   text-shadow: 6px 6px 5px black;
   color: #fffbef;
   transition: 0.5s;
+  background: 
+  linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)
+  );
+  font-size: 18px;
+  line-height: 1.5;
 }
 
-.service-box {
+.services-intro {
+  padding: 50px 20px;
+}
+
+.services-title {
+  padding: 0 20px 50px;
+  font-size: 28px;
+}
+
+.services-body {
+  padding: 0 20px 50px;
+}
+
+/* .service-box {
   background: 
   linear-gradient(
     to bottom,
@@ -1708,7 +1765,6 @@ white: #fffbef */
   justify-content: center;
   align-items: flex-start;
   overflow: hidden;
-  /* animation: 2s ease-in 0.5s 1 borderFadeIn forwards; */
 }
 
 .service-title a {
@@ -1718,7 +1774,6 @@ white: #fffbef */
   padding: 10px;
   margin: 0;
   width: 100%;
-  /* outline: 5px solid black; */
 }
 
 .service-title:hover a {
@@ -1760,7 +1815,6 @@ background: linear-gradient(
     to bottom,
     rgba(0, 0, 0, 0.3),
     rgba(0, 0, 0, 0.3)
-/* ), url(https://www.historic-uk.com/wp-content/uploads/2017/06/1950s-housewife.jpg); */
 ), url('images/1950s-housewife.jpg');
   background-color: #cccccc;
   background-position: center;
@@ -1771,7 +1825,7 @@ background: linear-gradient(
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
 
 
@@ -2141,15 +2195,13 @@ background: linear-gradient(
   background-color: #fffbef;
   color: #524d5c;
   height: 100%;
-  width: 20%;
+  width: 33.3%;
   transition: 0.6s;
 }
 
 .tab-link-active {
   color: #fffbef;
   background-color: #524d5c;
-  height: 100%;
-  width: 20%;
   transition: 0.6s;
   border-top: 1px solid #fffbef;
 }
@@ -2329,7 +2381,7 @@ background: linear-gradient(
 }
 
 .f-box {
-  width: 20%;
+  width: 33.3%;
   display: flex;
   flex-direction: column;
   transition: 0.5s;
@@ -2710,7 +2762,7 @@ padding: 0 1px;
   background: linear-gradient(
     to bottom,
     rgba(0, 0, 0, 0.3),
-    rgba(0, 0, 0, .3)
+    rgba(0, 0, 0, 0.3)
   ), url("images/dadintrailer2.jpg");
   background-color: #cccccc;
   background-position: center;
@@ -2724,53 +2776,28 @@ padding: 0 1px;
 }
 
 #services-container-jr {
-  width: 100%;
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
+  flex-direction: column;
   justify-content: center;
   text-align: center;
-  margin: 10vw 0 0vw 0;
-  background: 
-  linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0.6),
-    rgba(0, 0, 0, 0.6)
-  );
 }
 
-.service-box {
-  background: none;
-  width: 100%;
-  margin: 0 2vw 10vw 2vw;
+.services-container-jr-1 {
+
 }
 
-.service-title {
-  line-height: 1.6;
-  margin: 25px 0;
-  padding: 0 0 25px 0;
-  font-size: calc(20px + 16 * ((100vw - 335px) / 1265));
+.services-container-jr-2 {
+  display: flex;
+}
+
+.services-container-jr-commercial {
+  display: flex;
   flex-direction: column;
-  /* border-bottom: 5px solid black; */
 }
 
-/* .service-title::after {
-  content: '';
-  position: relative;
-  bottom: 5%;
-  left: 0;
-  width: 100%;
-  height: 5px;
-  background: #acccc6;
-  z-index: 100;
-  animation:
-    1.5s ease-out 0s 1 slideInFromLeft forwards,
-    0.3s ease-out 2.5s 1 slideBackToLeft forwards;
-  transform: translateX(-100%);
-} */
-
-.service-list {
-  font-size: calc(16px + 12 * ((100vw - 335px) / 1265));
+.services-container-jr-residential {
+  display: flex;
+  flex-direction: column;
 }
 
 

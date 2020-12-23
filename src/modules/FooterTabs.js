@@ -10,9 +10,7 @@ export default class FooterTabs extends Component {
         <div id='tab-labels'>
           <TabLink component='div' to='info' className='hvr-trim tab-link'><span>Info</span></TabLink>
           <TabLink component='div' to='services' className='hvr-trim tab-link'><span>Services</span></TabLink>
-          <TabLink component='div' to='zip' className='hvr-trim tab-link'><span>Zip</span></TabLink>
           <TabLink component='div' to='areas' className='hvr-trim tab-link'><span>Areas</span></TabLink>
-          <TabLink component='div' to='cities' className='hvr-trim tab-link'><span>Cities</span></TabLink>
         </div>
 
         <TabContent for="info">
@@ -53,35 +51,9 @@ export default class FooterTabs extends Component {
             <Link to='/services/TV-Removal'><span>TV Removal</span></Link>
           </div>
         </TabContent>
-        <TabContent for="zip">
-          <div id='footer-zip-title' className='footer-title'>Our Zip Codes</div>
-          <div className='footer-tab-content' id='footer-zip-body'>
-            <span>30060</span>
-            <span>30062</span>
-            <span>30064</span>
-            <span>30066</span>
-            <span>30067</span>
-            <span>30068</span>
-            <span>30080</span>
-            <span>30082</span>
-            <span>30106</span>
-            <span>30126</span>
-            <span>30127</span>
-          </div>
-        </TabContent>
         <TabContent for="areas">
           <div id='footer-areas-title' className='footer-title'>Our Areas</div>
           <div className='footer-tab-content' id='footer-areas-body'>
-            <span>Cobb County</span>
-            <span>East Cobb</span>
-            <span>North Cobb</span>
-            <span>South Cobb</span>
-            <span>West Cobb</span>
-          </div>
-        </TabContent>
-        <TabContent for="cities">
-          <div id='footer-cities-title' className='footer-title'>Our Cities</div>
-          <div className='footer-tab-content' id='footer-cities-body'>
             <Link to='/areas/Acworth-Junk-Removal'><span>Acworth</span></Link>
             <Link to='/areas/Austell-Junk-Removal'><span>Austell</span></Link>
             <Link to='/areas/Kennesaw-Junk-Removal'><span>Kennesaw</span></Link>

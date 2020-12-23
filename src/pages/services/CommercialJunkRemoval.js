@@ -18,8 +18,20 @@ export default class CommercialJunkRemoval extends Component {
             <div className='gD-body'>
               <span>Commercial junk removal is a breeze with Happy Wife Junk Service. Our customer driven junk service wants your experience to be pleasant and stress free. We haul any kind of junk you need. Happy Wife shows up on time and is a breeze to work with. We always put the needs of our clients first. We are determined to ensure that you feel comfortable and safe inviting us into your home. We always strive to serve you and provide you with a valuable service. Send us a text and we will contact you proptly, and your junk will be gone before you knew it possible.</span>
             </div>
+            <div className='gD-list'>
+              <span className='gD-list-title'>Things We Take:</span>
+              <span>Tables, Chairs, Desks, and Office Furniture</span>
+              <span>Retail Fixtures, Displays, and Flooring</span>
+              <span>Computers, Monitors, and other Electronics</span>
+              <span>Printers, Scanners, and Copiers</span>
+              <span>ATM removal</span>
+              <span>Debris, Roofing Tiles, Wooden Planks</span>
+              <span>Metal Scraps</span>
+              <span>And Much More!</span>
+              <span></span>
+            </div>
             <div className='gD-go-back'>
-              <Link to='/services' className='services-goback'><i className="arrow fas fa-arrow-left"></i><span>Back to List</span></Link>
+              <Link to='/services' className='services-goback'><i className="arrow fas fa-arrow-left"></i><span>Back to Services</span></Link>
             </div>
           </div>
         </div>

@@ -59,7 +59,7 @@ export default class Footer extends Component {
 
         </div>
 
-        <div id='f-zip' className='f-box'>
+        {/* <div id='f-zip' className='f-box'>
 
           <div id='f-zip-title' className='f-titles'>
             <span>Our Zip Codes</span>
@@ -81,9 +81,9 @@ export default class Footer extends Component {
             <span>30127</span>
           </div>
 
-        </div>
+        </div> */}
 
-        <div id='f-areas' className='f-box'>
+        {/* <div id='f-areas' className='f-box'>
 
           <div id='f-areas-title' className='f-titles'>
             <span>Our Areas</span>
@@ -99,17 +99,17 @@ export default class Footer extends Component {
             <span>West Cobb</span>
           </div>
 
-        </div>
+        </div> */}
 
-        <div id='f-cities' className='f-box'>
+        <div id='f-areas' className='f-box'>
 
-          <div id='f-cities-title' className='f-titles'>
-            <span>Our Cities</span>
+          <div id='f-areas-title' className='f-titles'>
+            <span>Our Areas</span>
           </div>
-          <div id='f-cities-hr' className='f-hr'>
+          <div id='f-areas-hr' className='f-hr'>
             <hr />
           </div>
-          <div id='f-cities-content' className='f-content'>
+          <div id='f-areas-content' className='f-content'>
             <Link to='/areas/Acworth-Junk-Removal'><span>Acworth</span></Link>
             <Link to='/areas/Austell-Junk-Removal'><span>Austell</span></Link>
             <Link to='/areas/Kennesaw-Junk-Removal'><span>Kennesaw</span></Link>
