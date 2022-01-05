@@ -18,7 +18,7 @@ export default class BookNow extends Component {
               <span>Please complete the form below and we will reply promptly. Let us know how we can best serve you.</span>
             </div>
             <div id='booknow-form-container'>
-              <form id='booknow-contact-form' action="https://formspree.io/xwkrwbyl" method="POST">
+              <form id='booknow-contact-form' action="https://formspree.io/f/mpzbword" method="POST">
                 <fieldset id='booknow-fieldset'>
                   <legend className='booknow-fieldset-legend hidden'>Contact Form / Request a Timeslot</legend>
                   <input id='booknow-nameinput' className='booknow-inputs' type='text' name='name' placeholder='Name' required />
