@@ -16,7 +16,7 @@ export default class Acworth extends Component {
               <span>Acworth</span>
             </div>
             <div className='gD-body'>
-              <span>Happy Wife Junk Service is your expert provider of local junk removal services in Acworth, GA. We provide high-quality services to homes and businesses in the area. We make every effort to donate, recycle, or re-purpose our clients' unwanted items so that they do not end up in a landfill. Contact us at 770-873-0803 or complete the contact form to schedule your free junk removal estimate today!</span>
+              <span>Happy Wife Junk Service is your expert provider of local junk removal services in Acworth, GA. We provide high-quality services to homes and businesses in the area. We make every effort to donate, recycle, or re-purpose our clients' unwanted items so that they do not end up in a landfill. Contact us by phone or complete the contact form to schedule your free junk removal estimate today!</span>
             </div>
             <div className='gD-go-back'>
               <Link to='/areas' className='areas-goback'><i className="arrow fas fa-arrow-left"></i><span>Back to List</span></Link>

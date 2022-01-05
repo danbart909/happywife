@@ -18,11 +18,11 @@ export default class TopNav extends Component {
             </div>
 
             <div id='top-nav-right-number'>
-              <a href='tel:770-873-0803'><span>470-304-7632</span></a>
+              <a href='tel:470-304-7632'><span>770-873-0803</span></a>
             </div>
 
             <div id='top-nav-right-phone-text'>
-              <a href='tel:770-873-0803'><i className="fas fa-phone"></i> Call </a><span> or </span><a href='sms:7708730803'> <i className="fas fa-comment-dots"></i> Text</a>
+              <a href='tel:470-304-7632'><i className="fas fa-phone"></i> Call </a><span> or </span><a href='sms:4703047632'> <i className="fas fa-comment-dots"></i> Text</a>
             </div>
 
           </div>
