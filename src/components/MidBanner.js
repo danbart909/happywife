@@ -10,7 +10,7 @@ export default class MidBanner extends Component {
               <span>Call Now</span>
             </div>
             <div id='midbanner-number'>
-              <a href='tel:470-304-7632'><span>770.873.0803</span></a>
+              <a href='tel:470-304-7632'><span>470.304.7632</span></a>
             </div>
           </div>
         </div>

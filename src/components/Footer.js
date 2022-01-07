@@ -20,12 +20,12 @@ export default class Footer extends Component {
               <span>Happy Wife Junk Services</span>
             </div>
             <div id='f-info-2' className='f-info-box'>
-              <span>2051 Mulkey Rd</span>
-              <span>Marietta, GA 30008</span>
+              <span>1820 Tree Top Way</span>
+              <span>Marietta, GA 30062</span>
             </div>
             <div id='f-info-3' className='f-info-box'>
               <span>henry@prettygoodinc.com</span>
-              <span>770.873.0803</span>
+              <span>470.304.7632</span>
             </div>
           </div>
 
