@@ -9,6 +9,7 @@ import Services from './components/Services'
 import Pricing from './components/Pricing'
 import BookNow from './components/BookNow'
 import Footer from './components/Footer'
+import PrivacyPolicy from './components/PrivacyPolicy'
 import ScrollToTop from './modules/ScrollToTop'
 import FooterTabs from './modules/FooterTabs'
 import Acworth from './pages/areas/Acworth'
@@ -119,6 +120,7 @@ export default class App extends Component {
             <Route path='/services' component={Services} />
             <Route path='/pricing' component={Pricing} />
             <Route path='/booknow' component={BookNow} />
+            <Route path='/privacy' component={PrivacyPolicy} />
           </Switch>
         </div>
         <ScrollToTop />
