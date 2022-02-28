@@ -27,6 +27,7 @@ export default class PrivacyPolicy extends Component {
           </div>
           <div id='whatwebelieve-2' className='aboutus-text'>
             <span>Nothing happens to your information! Yay!</span>
+            <span>Pretty Good Inc. © 2022</span>
           </div>
         </div>
 
