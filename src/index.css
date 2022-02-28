@@ -2608,6 +2608,7 @@ background: linear-gradient(
   justify-content: center;
   align-items: flex-start;
   height: 650px;
+  margin: 50px 0 0 0;
   /* border: 3px solid red; */
 }
 
@@ -2644,6 +2645,16 @@ background: linear-gradient(
   /* height: 80%; */
 }
 
+.aboutus-text2 {
+  /* font-size: 1.1rem; */
+  /* line-height: 1.2; */
+  /* padding: 0 20px; */
+  margin: 20px 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 80%; */
+}
 
 
 
