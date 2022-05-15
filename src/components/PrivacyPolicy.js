@@ -8,7 +8,7 @@ export default class PrivacyPolicy extends Component {
 
           <div id='aboutus' className='aboutus-box'>
             <div id='aboutus-1' className='aboutus-title'>
-              <span>Privacy Policy for wrkr</span>
+              <span>Privacy Policy for wrkr and Turtle Race!</span>
             </div>
             <div className='aboutus-hr'>
               <hr />
