@@ -18,7 +18,7 @@ export default class TopNav extends Component {
             </div>
 
             <div id='top-nav-right-number'>
-              <a href='tel:470-304-7632'><span>470.304.7632</span></a>
+              <a href='tel:762-217-3303'><span>762.217.3303</span></a>
             </div>
 
             <div id='top-nav-right-phone-text'>

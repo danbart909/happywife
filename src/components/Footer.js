@@ -25,7 +25,7 @@ export default class Footer extends Component {
             </div>
             <div id='f-info-3' className='f-info-box'>
               <span>henry@prettygoodinc.com</span>
-              <span>470.304.7632</span>
+              <span>762.217.3303</span>
             </div>
           </div>
 
