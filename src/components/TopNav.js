@@ -22,7 +22,7 @@ export default class TopNav extends Component {
             </div>
 
             <div id='top-nav-right-phone-text'>
-              <a href='tel:470-304-7632'><i className="fas fa-phone"></i> Call </a><span> or </span><a href='sms:4703047632'> <i className="fas fa-comment-dots"></i> Text</a>
+              <a href='tel:762-217-3303'><i className="fas fa-phone"></i> Call </a><span> or </span><a href='sms:7622173303'> <i className="fas fa-comment-dots"></i> Text</a>
             </div>
 
           </div>
